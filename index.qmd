@@ -12,7 +12,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 #| fig-align: "center"
 #| out-width: "60%"
 #| echo: false
-knitr::include_graphics("img/epsy-8251-logo.png")
+knitr::include_graphics("img/epsy-5261-logo.png")
 ```
 
 
