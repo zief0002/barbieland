@@ -27,7 +27,7 @@ Below are the due dates for the assignments, as well as links to each assignment
 <!-- <td>Sept. 19</td> -->
 <td>Sept. 27</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-01-introduction-to-statistical-computing.html)
+  [<span class="fas fa-link"></span>](assignments/assignment-01-introduction-to-statistical-computing.html)
 </td>
 </tr>
 
@@ -38,7 +38,7 @@ Below are the due dates for the assignments, as well as links to each assignment
 <!-- <td>Oct. 01</td> -->
 <td>Oct. 09</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-02-simple-regression-description.html)
+  [<span class="fas fa-link"></span>](assignments/assignment-02-simple-regression-description.html)
 </td>
 </tr>
 
@@ -57,7 +57,7 @@ Below are the due dates for the assignments, as well as links to each assignment
 <!-- <td>Oct. 22</td> -->
 <td>Oct. 25</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-03-simple-regression-inference.html)
+  [<span class="fas fa-link"></span>](assignments/assignment-03-simple-regression-inference.html)
 </td>
 </tr>
 
@@ -66,7 +66,7 @@ Below are the due dates for the assignments, as well as links to each assignment
 <!-- <td>Oct. 31</td> -->
 <td>Nov. 08</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-04-introduction-to-multiple-regression.html)
+  [<span class="fas fa-link"></span>](assignments/assignment-04-introduction-to-multiple-regression.html)
 </td>
 </tr>
 
@@ -75,7 +75,7 @@ Below are the due dates for the assignments, as well as links to each assignment
 <!-- <td>Nov. 12</td> -->
 <td>Nov. 15</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-05-regression-assumptions.html)
+  [<span class="fas fa-link"></span>](assignments/assignment-05-regression-assumptions.html)
 </td>
 </td>
 </tr>
@@ -87,7 +87,7 @@ Below are the due dates for the assignments, as well as links to each assignment
 <!-- <td>Nov. 19</td> -->
 <td>Nov. 29</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-06-dichotomous-categorical-predictors.html)
+  [<span class="fas fa-link"></span>](assignments/assignment-06-dichotomous-categorical-predictors.html)
 </td>
 </tr>
 
@@ -99,7 +99,7 @@ Below are the due dates for the assignments, as well as links to each assignment
 <!-- <td>Dec. 03</td> -->
 <td>Dec. 06</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-07-polychotomous-categorical-predictors.html)
+  [<span class="fas fa-link"></span>](assignments/assignment-07-polychotomous-categorical-predictors.html)
 </td>
 </tr>
 
@@ -108,7 +108,7 @@ Below are the due dates for the assignments, as well as links to each assignment
 <td>Assignment \#8: *Interaction Models*</td>
 <td>Dec. 15 (due at 12:00pm)</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/assignment-08-interactions.html)
+  [<span class="fas fa-link"></span>](assignments/assignment-08-interactions.html)
 </td>
 </tr>
 

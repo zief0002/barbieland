@@ -1,0 +1,95 @@
+---
+title: "nhanes.csv"
+subtitle: "DATA CODEBOOK"
+output: 
+  html:
+    df_print: paged
+    code_folding: show
+theme: "lumen"
+highlight-style: "atom-one"
+bibliography: '../assets/epsy8252.bib'
+csl: '../assets/apa-single-spaced.csl'
+---
+
+
+
+The [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes) is a program of studies carried out by the Centers for Disease Control and Prevention (CDC) and is designed to assess the health and nutritional status of adults and children in the United States. These studies are conducted in two-year cycles and the data collected is representative of the non-institutionalized U.S. population. The data comes from interviews and physical examinations of the sampled participants.
+
+The data in [nhanes.csv](https://raw.githubusercontent.com/zief0002/barbieland/main/data/nhanes.csv) were collected by the CDC in 2017 and includes measures collected from 500 randomly sampled participants. The variables are:
+
+- `id`: Participant ID number
+<!-- - `gender`: Participant's gender (`Female`, `Male`) -->
+<!-- - `ageYrs`: Participant's age in years, at the time of the screening interview. This is reported for survey participants between the ages of 1 and 79 years of age. All responses of participants aged 80 years and older are coded as `80`. -->
+<!-- - `race`: Participant's race (`Mexican Am` = Mexican American, `Hispanic Other`, `White`, `Black`, `Asian`, `Other` includes multi-racial) -->
+<!-- - `birthUSA`: Participant's response to the question: "Were you born in the USA?" (`YES`, `NO`) -->
+<!-- - `birthUSA`        -->
+<!-- - `usCitizen`   -->
+<!-- - `educAdult`       -->
+<!-- - `martlStatus`     -->
+<!-- - `sizeHousehold`   -->
+<!-- - `sizeFamily` -->
+<!-- - `incomeHousehold` -->
+<!-- - `incomeFamily` -->
+<!-- - `povertyRatio`    -->
+- `mhInterest`   
+- `mhDepress`     
+- `mhSleep`     
+- `mhTired`        
+- `mhAppetite`     
+- `mhFeelBad`
+- `mhConcentrate`: Participant's response to the question: "Over the last 2 weeks, have you experienced trouble concentrating on things, such as reading the newspaper or watching TV?" (`YES`, `NO`).
+- `mhSpeech`       
+- `mhHurtSelf`     
+- `mhDoWork`     
+- `mentHlthAvg`
+- `vigWork`: Participant's response to the question: "How much time do you spend doing vigorous-intensity activities at work on a typical day?: Think about a typical day when you do vigorous-intensity activities during your work. PROBE IF NEEDED: Vigorous-intensity activity causes large increases in breathing or heart rate and is done for at least 10 minutes continuously." (minutes per day)
+- `modWork`: Participant's response to the question: "How much time do you spend doing moderate-intensity activities at work on a typical day?: Think about a typical day when you do moderate-intensity activities during your work. PROBE IF NEEDED: Moderate-intensity activity causes small increases in breathing or heart rate and is done for at least 10 minutes continuously." (minutes per day)
+- `modVigWork`: Sum of `vigWork` and `modWork` (minutes per day)
+- `walkBike`
+- `vigExercise`    
+- `modExercise`    
+- `modVigExercise` 
+- `exerciseGT60`: Participant's response to the question: "Do you get more than 60 minutes of moderate to vigorous exercise per day?" (`YES`, `NO`)
+- `sedentary`
+- `sleepWkNt`: Number of hours participant usually sleep on weekdays or workdays (to nearest half hour).
+- `sleepWkEnd`: Number of hours participant usually sleep on weekends or non-workdays (to nearest half hour).
+- `sleepTrouble`: Participant's response to the question: "Have you ever told a doctor or other health professional that you have trouble sleeping?" (`YES`, `NO`)
+- `feltSleepy`
+- `pulse`: Participant's 60 second pulse rate
+- `systolicBP`
+- `diastolicBP`    
+- `weightKG`    
+- `heightCM`     
+- `bmi`       
+- `legLengthCM`
+- `armLengthCM`    
+- `armCircumCM`    
+- `waistCM`    
+- `cholesterol` 
+
+
+<br />
+
+
+### Preview
+
+```{r}
+# Import Data
+nhanes = readr::read_csv(file = "https://raw.githubusercontent.com/zief0002/barbieland/main/data/nhanes.csv")
+
+# View data
+nhanes
+```
+
+<br />
+
+
+### References
+
+
+Roser, M. (2017). [Fertility rate](https://ourworldindata.org/fertility-rate#empowerment-of-women). *Our world in data*.
+
+UNICEF. (2016). [State of the world's children 2016](https://www.unicef.org/publications/files/UNICEF_SOWC_2016.pdf). *United Nations Population Division's World Contraceptive Use, household surveys including Demographic and Health Surveys and Multiple Indicator Cluster Surveys.*
+
+World Bank (2019). [World Bank open data](https://data.worldbank.org/). 
+

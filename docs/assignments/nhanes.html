@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EPsy 5261 - Assignment Due Dates</title>
+<title>EPsy 5261 - nhanes.csv</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="https://kit.fontawesome.com/e5da75ca36.js" crossorigin="anonymous"></script>
 
 
-<link rel="stylesheet" href="assets/sticky-notes.css">
+<link rel="stylesheet" href="../assets/sticky-notes.css">
 </head>
 
 <body class="nav-fixed">
@@ -72,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">EPsy 5261</span>
     </a>
   </div>
@@ -83,31 +117,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html" rel="" target="">
+    <a class="nav-link" href="../schedule.html" rel="" target="">
  <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./assignments.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../assignments.html" rel="" target="">
  <span class="menu-text">Assignments</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data.html" rel="" target="">
+    <a class="nav-link" href="../data.html" rel="" target="">
  <span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">Instructor &amp; TA</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./mission-statements.html" rel="" target="">
+    <a class="nav-link" href="../mission-statements.html" rel="" target="">
  <span class="menu-text">Mission Statements</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./umn-policies.html" rel="" target="">
+    <a class="nav-link" href="../umn-policies.html" rel="" target="">
  <span class="menu-text">University Policies</span></a>
   </li>  
 </ul>
@@ -126,7 +160,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#faqs" id="toc-faqs" class="nav-link active" data-scroll-target="#faqs">FAQs</a></li>
+  <li><a href="#preview" id="toc-preview" class="nav-link active" data-scroll-target="#preview">Preview</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -135,7 +170,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Assignment Due Dates</h1>
+<h1 class="title">nhanes.csv</h1>
+<p class="subtitle lead">DATA CODEBOOK</p>
 </div>
 
 
@@ -150,156 +186,111 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Below are the due dates for the assignments, as well as links to each assignment. <em>All assignments are due by 5:00 PM on the due date.</em> The due dates may change at the instructor’s discretion. Any revised due dates will be announced in class and posted to the website.</p>
-<p><br></p>
-
-<table class="table">
-<thead>
-<tr>
-<th style="width:50%;">
-Assignment
-</th>
-<!-- <th style="width:15%;">Due Date (T/R)</th> -->
-<th style="width:30%;">
-Due Date
-</th>
-<th style="width:10%;text-align:center">
-HTML
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-Assignment #1: <em>Introduction to Statistical Computing</em> <!-- <span style="margin-left:20px; color:red;">*[Updated 09-13-2021]*</span> -->
-</td>
-<!-- <td>Sept. 19</td> -->
-<td>
-Sept.&nbsp;27
-</td>
-<td align="center" style="vertical-align:middle;">
-<a href="assignments/assignment-01-introduction-to-statistical-computing.html"><span class="fas fa-link"></span></a>
-</td>
-</tr>
-<tr>
-<td>
-Assignment #2: <em>Simple Regression: Description</em>
-</td>
-<!-- <td>Oct. 01</td> -->
-<td>
-Oct.&nbsp;09
-</td>
-<td align="center" style="vertical-align:middle;">
-<a href="assignments/assignment-02-simple-regression-description.html"><span class="fas fa-link"></span></a>
-</td>
-</tr>
-<!-- <tr> -->
-<!-- <td>Assignment \#3: *Correlation and Standardized Regression*</td> -->
-<!-- <!-- <td>Oct. 10</td> -->
-<!-- <td>Oct. 11</td> -->
-<!-- <td align="center" style="vertical-align:middle;"> -->
-<!--   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/f21-assignment-03-correlation-and-standardized-regression.html) -->
-<!-- </td> -->
-<!-- </tr> -->
-<tr>
-<td>
-Assignment #3: <em>Simple Regression: Inference</em>
-</td>
-<!-- <span style="margin-left:20px; color:red;">*[Updated 10-11-2023]*</span> -->
-<!-- <td>Oct. 22</td> -->
-<td>
-Oct.&nbsp;25
-</td>
-<td align="center" style="vertical-align:middle;">
-<a href="assignments/assignment-03-simple-regression-inference.html"><span class="fas fa-link"></span></a>
-</td>
-</tr>
-<tr>
-<td>
-Assignment #4: <em>Introduction to Multiple Regression</em>
-</td>
-<!-- <td>Oct. 31</td> -->
-<td>
-Nov.&nbsp;08
-</td>
-<td align="center" style="vertical-align:middle;">
-<a href="assignments/assignment-04-introduction-to-multiple-regression.html"><span class="fas fa-link"></span></a>
-</td>
-</tr>
-<tr>
-<td>
-Assignment #5: <em>Regression Assumptions</em>
-</td>
-<!-- <td>Nov. 12</td> -->
-<td>
-Nov.&nbsp;15
-</td>
-<td align="center" style="vertical-align:middle;">
-<a href="assignments/assignment-05-regression-assumptions.html"><span class="fas fa-link"></span></a>
-</td>
-
-</tr>
-<tr>
-<td>
-Assignment #6: <em>Dichotomous Categorical Predictors</em>
-</td>
-<!-- <td>Nov. 19</td> -->
-<td>
-Nov.&nbsp;29
-</td>
-<td align="center" style="vertical-align:middle;">
-<a href="assignments/assignment-06-dichotomous-categorical-predictors.html"><span class="fas fa-link"></span></a>
-</td>
-</tr>
-<tr>
-<td>
-Assignment #7: <em>Polychotomous Categorical Predictors</em> <!-- <span style="margin-left:20px; color:red;">*[Updated 11-12-2019]*</span> -->
-</td>
-<!-- <td>Dec. 03</td> -->
-<td>
-Dec.&nbsp;06
-</td>
-<td align="center" style="vertical-align:middle;">
-<a href="assignments/assignment-07-polychotomous-categorical-predictors.html"><span class="fas fa-link"></span></a>
-</td>
-</tr>
-<tr>
-<td>
-Assignment #8: <em>Interaction Models</em>
-</td>
-<td>
-Dec.&nbsp;15 (due at 12:00pm)
-</td>
-<td align="center" style="vertical-align:middle;">
-<a href="assignments/assignment-08-interactions.html"><span class="fas fa-link"></span></a>
-</td>
-</tr>
-</tbody>
-
-</table>
-<p><br></p>
-<section id="faqs" class="level2">
-<h2 class="anchored" data-anchor-id="faqs">FAQs</h2>
-<p><strong>How do I submit the assignment?</strong></p>
-<p>Create a PDF of your responses and submit the PDF via email to both the instructor and TA. Also cc any group members. Before you submit the assignment check that:</p>
-<ul class="task-list">
-<li><input type="checkbox">All group members’ names are on the assignment.</li>
-<li><input type="checkbox">All tables are numbered and have a caption.</li>
-<li><input type="checkbox">All figures are numbered and have a caption.</li>
-<li><input type="checkbox">All figures are re-sized to not take up more page space than is necessary to read them.</li>
-<li><input type="checkbox">No R syntax is included unless the question specifically asked for the syntax to be included. If there is R syntax included, be sure that it is typeset in a monospaced font (e.g., Courier, Inconsolata).</li>
-<li><input type="checkbox">Do not submit the script file you used unless the directions specifically ask you to submit it.</li>
+<p>The <a href="https://www.cdc.gov/nchs/nhanes">National Health and Nutrition Examination Survey (NHANES)</a> is a program of studies carried out by the Centers for Disease Control and Prevention (CDC) and is designed to assess the health and nutritional status of adults and children in the United States. These studies are conducted in two-year cycles and the data collected is representative of the non-institutionalized U.S. population. The data comes from interviews and physical examinations of the sampled participants.</p>
+<p>The data in <a href="https://raw.githubusercontent.com/zief0002/barbieland/main/data/nhanes.csv">nhanes.csv</a> were collected by the CDC in 2017 and includes measures collected from 500 randomly sampled participants. The variables are:</p>
+<ul>
+<li><code>id</code>: Participant ID number <!-- - `gender`: Participant's gender (`Female`, `Male`) --> <!-- - `ageYrs`: Participant's age in years, at the time of the screening interview. This is reported for survey participants between the ages of 1 and 79 years of age. All responses of participants aged 80 years and older are coded as `80`. --> <!-- - `race`: Participant's race (`Mexican Am` = Mexican American, `Hispanic Other`, `White`, `Black`, `Asian`, `Other` includes multi-racial) --> <!-- - `birthUSA`: Participant's response to the question: "Were you born in the USA?" (`YES`, `NO`) --> <!-- - `birthUSA`        --> <!-- - `usCitizen`   --> <!-- - `educAdult`       --> <!-- - `martlStatus`     --> <!-- - `sizeHousehold`   --> <!-- - `sizeFamily` --> <!-- - `incomeHousehold` --> <!-- - `incomeFamily` --> <!-- - `povertyRatio`    --></li>
+<li><code>mhInterest</code><br>
+</li>
+<li><code>mhDepress</code><br>
+</li>
+<li><code>mhSleep</code><br>
+</li>
+<li><code>mhTired</code><br>
+</li>
+<li><code>mhAppetite</code><br>
+</li>
+<li><code>mhFeelBad</code></li>
+<li><code>mhConcentrate</code>: Participant’s response to the question: “Over the last 2 weeks, have you experienced trouble concentrating on things, such as reading the newspaper or watching TV?” (<code>YES</code>, <code>NO</code>).</li>
+<li><code>mhSpeech</code><br>
+</li>
+<li><code>mhHurtSelf</code><br>
+</li>
+<li><code>mhDoWork</code><br>
+</li>
+<li><code>mentHlthAvg</code></li>
+<li><code>vigWork</code>: Participant’s response to the question: “How much time do you spend doing vigorous-intensity activities at work on a typical day?: Think about a typical day when you do vigorous-intensity activities during your work. PROBE IF NEEDED: Vigorous-intensity activity causes large increases in breathing or heart rate and is done for at least 10 minutes continuously.” (minutes per day)</li>
+<li><code>modWork</code>: Participant’s response to the question: “How much time do you spend doing moderate-intensity activities at work on a typical day?: Think about a typical day when you do moderate-intensity activities during your work. PROBE IF NEEDED: Moderate-intensity activity causes small increases in breathing or heart rate and is done for at least 10 minutes continuously.” (minutes per day)</li>
+<li><code>modVigWork</code>: Sum of <code>vigWork</code> and <code>modWork</code> (minutes per day)</li>
+<li><code>walkBike</code></li>
+<li><code>vigExercise</code><br>
+</li>
+<li><code>modExercise</code><br>
+</li>
+<li><code>modVigExercise</code></li>
+<li><code>exerciseGT60</code>: Participant’s response to the question: “Do you get more than 60 minutes of moderate to vigorous exercise per day?” (<code>YES</code>, <code>NO</code>)</li>
+<li><code>sedentary</code></li>
+<li><code>sleepWkNt</code>: Number of hours participant usually sleep on weekdays or workdays (to nearest half hour).</li>
+<li><code>sleepWkEnd</code>: Number of hours participant usually sleep on weekends or non-workdays (to nearest half hour).</li>
+<li><code>sleepTrouble</code>: Participant’s response to the question: “Have you ever told a doctor or other health professional that you have trouble sleeping?” (<code>YES</code>, <code>NO</code>)</li>
+<li><code>feltSleepy</code></li>
+<li><code>pulse</code>: Participant’s 60 second pulse rate</li>
+<li><code>systolicBP</code></li>
+<li><code>diastolicBP</code><br>
+</li>
+<li><code>weightKG</code><br>
+</li>
+<li><code>heightCM</code><br>
+</li>
+<li><code>bmi</code><br>
+</li>
+<li><code>legLengthCM</code></li>
+<li><code>armLengthCM</code><br>
+</li>
+<li><code>armCircumCM</code><br>
+</li>
+<li><code>waistCM</code><br>
+</li>
+<li><code>cholesterol</code></li>
 </ul>
-<p><strong>Do I need to turn in the script file?</strong></p>
-<p>No…unless the directions specifically ask you to submit the script file. The script file is for your reference. Future assignments will sometimes have questions that reference older assignments, so an organized and well-commented script file is a good idea. Moreover, the TA or myself may ask you to submit your syntax after you submit the assignment to help us interpret mistakes you made on the assignment so that we can provide more thorough feedback.</p>
-<p><strong>Will you provide answer keys to the assignments?</strong></p>
-<p>No.&nbsp;You will get back several comments on your assignments that address what you did wrong. The educational research is pretty clear that feedback is more helpful to student learning than providing correct answers. If you have further questions or need additional clarification, you are welcome to come to office hours or make an appointment with the instructor or TA.</p>
-<p><strong>Will you go over the answers in class?</strong></p>
-<p>No.&nbsp;I will address broad concepts if several students/groups made the same mistake, but otherwise, since each student/group makes unique mistakes going over the assignments more broadly is not a good use of our limited class time. The feedback should be helpful in understanding any mistakes you made, but if it isn’t, you are welcome to come to office hours or make an appointment with the instructor or TA.</p>
-<p><strong>Will you look at our assignment prior to us submitting it?</strong></p>
-<p>The instructor or TA will not “pre-grade” your assignment. If there is a “Preparation” part of the assignment we can ensure that you did that part correctly, and we can also give you feedback about syntax, but we will not tell you if an answer is correct or not. We can also answer clarifying questions (e.g., ‘I know Question 8 is asking about […], but I’m not sure what this question is looking for. Is there another way to restate this question?’). If you completed the assignment without any trouble, then be confident in your work and simply submit the assignment! 😄 If you are unsure about something specific, then ask about that specific thing rather than a general ‘did I do this right’!</p>
-<p><strong>Will we be able to re-do the assignment?</strong></p>
-<p>Generally no. Since you have the opportunity to work in groups on the assignments, you should be able offset any of the issues that come up that would necessitate a re-submission. The exception to this is that we may allow you to re-do Assignment 1. If we do this, we will send you an email requesting that you resubmit part, or all of Assignment 1. You will not receive much feedback on your assignment prior to your re-submission. This is because during the first assignment you are learning not only content, but also expectations around how to respond to the questions we ask.</p>
+<p><br></p>
+<section id="preview" class="level3">
+<h3 class="anchored" data-anchor-id="preview">Preview</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import Data</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>nhanes <span class="ot">=</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="at">file =</span> <span class="st">"https://raw.githubusercontent.com/zief0002/barbieland/main/data/nhanes.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 500 Columns: 48
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (21): gender, race, birthUSA, usCitizen, educAdult, martlStatus, incomeH...
+dbl (27): id, ageYrs, sizeHousehold, sizeFamily, povertyRatio, mentHlthAvg, ...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># View data</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>nhanes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 500 × 48
+      id gender ageYrs race           birthUSA usCitizen educAdult   martlStatus
+   &lt;dbl&gt; &lt;chr&gt;   &lt;dbl&gt; &lt;chr&gt;          &lt;chr&gt;    &lt;chr&gt;     &lt;chr&gt;       &lt;chr&gt;      
+ 1 93721 female     60 Mexican Am     NO       YES       1 - &lt; 9th … Married    
+ 2 93766 female     36 Hispanic Other NO       NO        2 - 9-11th… Divorced   
+ 3 93770 male       55 Hispanic Other NO       YES       1 - &lt; 9th … Never Marr…
+ 4 93852 female     45 Other          YES      YES       4 - Some C… Live with …
+ 5 93890 male       27 Asian          YES      YES       5 - Colleg… Never Marr…
+ 6 93899 male       67 White          YES      YES       2 - 9-11th… Married    
+ 7 93906 male       39 Mexican Am     YES      YES       2 - 9-11th… Married    
+ 8 93937 male       30 White          YES      YES       4 - Some C… Live with …
+ 9 93969 female     33 White          YES      YES       5 - Colleg… Separated  
+10 93982 female     57 White          NO       YES       5 - Colleg… Divorced   
+# ℹ 490 more rows
+# ℹ 40 more variables: sizeHousehold &lt;dbl&gt;, sizeFamily &lt;dbl&gt;,
+#   incomeHousehold &lt;chr&gt;, incomeFamily &lt;chr&gt;, povertyRatio &lt;dbl&gt;,
+#   mhInterest &lt;chr&gt;, mhDepress &lt;chr&gt;, mhSleep &lt;chr&gt;, mhTired &lt;chr&gt;,
+#   mhAppetite &lt;chr&gt;, mhFeelBad &lt;chr&gt;, mhConcentrate &lt;chr&gt;, mhSpeech &lt;chr&gt;,
+#   mhHurtSelf &lt;chr&gt;, mhDoWork &lt;chr&gt;, mentHlthAvg &lt;dbl&gt;, vigWork &lt;dbl&gt;,
+#   modWork &lt;dbl&gt;, modVigWork &lt;dbl&gt;, walkBike &lt;dbl&gt;, vigExercise &lt;dbl&gt;, …</code></pre>
+</div>
+</div>
+<p><br></p>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<p>Roser, M. (2017). <a href="https://ourworldindata.org/fertility-rate#empowerment-of-women">Fertility rate</a>. <em>Our world in data</em>.</p>
+<p>UNICEF. (2016). <a href="https://www.unicef.org/publications/files/UNICEF_SOWC_2016.pdf">State of the world’s children 2016</a>. <em>United Nations Population Division’s World Contraceptive Use, household surveys including Demographic and Health Surveys and Multiple Indicator Cluster Surveys.</em></p>
+<p>World Bank (2019). <a href="https://data.worldbank.org/">World Bank open data</a>.</p>
 
 
 </section>
