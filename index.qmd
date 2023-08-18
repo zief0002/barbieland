@@ -20,12 +20,10 @@ knitr::include_graphics("img/epsy-5261-logo.png")
 
 EPSY 5261 is designed to engage students in statistics by first building a conceptual understanding of statistics through the use of simulation methods and then learning about the more traditional methods, such as t-tests and regression. This course uses pedagogical principles that are founded in research, such as daily small group activities and discussion. 
 
-:::fyi
-**Attention undergraduates:** As this is a graduate level course, it does not fulfill the [Mathematical Thinking Liberal Education requirement](https://onestop.umn.edu/academics/undergraduate/lib-ed-requirements-overview/liberal-education-requirements). If you would like to take a statistics course in our department that fulfills that requirement, please consider EPSY 3264.
-:::
-
 EPsy 5261 is a 3 credit course. It is expected that the academic work required of Graduate School and professional school students will exceed three hours per credit per week (see [Expected Student Academic Work Policy](https://policy.umn.edu/education/studentwork)). In my experience, it is typical for students to spend 10--15 hours a week on this course. As with every class, some students will spend more time than that on this course, while others will spend less time than that---it all depends on your prior experiences with statistics and computing. If you find yourself consistently spending more than 20 hours a week on the course, please make an appointment to see the instructor so that we can strategize about how to best optimize how you are devoting time to the course.
 
+
+:::fyi
 ### CACREP Standard(s) Covered in EPSY 5261 (for Counselor Ed. Students reference)
 
 As a result of taking this course, Counselor Education students will:
@@ -35,6 +33,8 @@ As a result of taking this course, Counselor Education students will:
 - Learn statistical methods used in conducting research **(2.F.8.h)**
 - Understand ways to analyze and use data in counseling **(2.F.8.i)**
 - Identify ethical and culturally relevant strategies for conducting, interpreting, and reporting the results of research **(2.F.8.j)**
+:::
+
 
 <br />
 
@@ -42,6 +42,10 @@ As a result of taking this course, Counselor Education students will:
 ## Audience and prerequisites 
 
 This course is intended for upper-level undergraduate and graduate students who have completed a high school algebra course. Although there are no formal prerequisites for this course, students should have familiarity with computers and technology (e.g., internet browsing, Microsoft Word, opening/saving/attaching files, etc.).
+
+:::fyi
+**Attention undergraduates:** As this is a graduate level course, it does not fulfill the [Mathematical Thinking Liberal Education requirement](https://onestop.umn.edu/academics/undergraduate/lib-ed-requirements-overview/liberal-education-requirements). If you would like to take a statistics course in our department that fulfills that requirement, please consider EPSY 3264.
+:::
 
 <br />
 
@@ -54,17 +58,12 @@ Upon completion of this course, students should (1) have an understanding of the
 
 This course makes extensive use of small group activities and large group discussions to solidify ideas and content, as well as to deepen your understanding of material encountered in the readings. Your learning experience is thus dependent–to some extent–on your classmates and vice versa. Because of this, *it is essential that you not only attend class each day and participate in the activities and discussions, but that you show up prepared having completed the reading.*
 
-Although attempts have been made to make this course as flexible as possible, there are weekly deadlines that are essential in order to ensure that everyone moves through the course at the same pace and completes the assignments in the same order. 
+<br />
 
-Statistics is more than just an application of mathematics or a methodology used in some other discipline. Statistics is a principled way of thinking about the world. In particular, it is a principled approach to data collection, prediction, and scientific inference.
 
-Statistics is itself a unique discipline that has, like many others, undergone a tremendous amount of growth and change in the last two decades. In today’s dynamic and interdisciplinary world, success in confronting new analytical issues requires both substantial knowledge of a scientific or technological area and highly flexible problem-solving strategies.
+<!-- ### Professionalism -->
 
-Internalizing a discipline's way of thinking about and solving problems is a time consuming process, with the key word being "process". It is not something that can be taught to students in a semester, or even year–long, course. Learning statistics takes much more than memorizing formulae or software commands. It requires active participation and questioning both in and out of the classroom. The instructor of this course will provide you with many opportunities to learn the material through class activities, readings, and lab assignments, but in the end, you will have to do all of the hard work of actually learning that material.
-
-### Professionalism
-
-Evidence of professional practice on both our parts includes (a) starting and ending on time, (b) being prepared, (c) being physically and mentally engaged, (d) performing at a high level, (e) making sure cell phones are off, and (f) refraining from sending and receiving e-mail, playing solitaire, shopping, texting, tweeting, and facebooking during class. Thank you. 
+<!-- Evidence of professional practice on both our parts includes (a) starting and ending on time, (b) being prepared, (c) being physically and mentally engaged, (d) performing at a high level, (e) making sure cell phones are off, and (f) refraining from sending and receiving e-mail, playing solitaire, shopping, texting, tweeting, and facebooking during class. Thank you.  -->
 
 
 <!-- ```{r} -->
@@ -102,7 +101,26 @@ The course textbook is available for free online. (There is no physical copy of 
 
 - **Required:** Zieffler, A., &amp; Legacy, C. (2023). [An Introduction to Data Analysis](https://zief0002.github.io/epsy-5261/).
 
-- A variety of readings will be provided via the course website throughout the semester. These readings come from different sources–such as journal articles and online resources–and explain terms and concepts, or provide additional information not covered in the textbook. Some of the readings are journal and news articles that report about research studies or data analyses that are related to topics addressed in class activities. These have more detail than you need to know for the course, but they provide real-world examples of the statistical questions and methods you are learning about. 
+<br />
+
+
+## Statistical Computing and Technology
+
+This course is taught in an active learning classroom and you are strongly encouraged to bring a laptop to class on a daily basis.
+
+Statistical computing is an integral part of statistical work, and subsequently, EPsy 5261. To support your learning in this area, this course will emphasize the use of R. R is a free software environment for statistical computing and graphics. (Information about how to download and use the software can be found in the textbook.) You are responsible for getting things to work on your computer. While it should be straightforward, each OS and computer has their quirks. I can try to help you with this if you are having trouble.
+
+<br />
+
+
+:::technology
+### Technology Policy
+
+The course uses technology on a regular basis during both instruction and assessments (e.g., homework assignments, exams, etc.). Student difficulty with obtaining or operating the various software programs and technologies---including printer trouble---will not be acceptable as an excuse for late work. Due to the variation in computer types and systems, the instructor or TA may not be able to assist in trouble shooting all problems you may have.
+
+<!-- <p style="font-size:70%;">gg_goldy created by Rita Sandidge, CSPP</p> -->
+::: 
+ 
 
 <br />
 
@@ -111,26 +129,18 @@ The course textbook is available for free online. (There is no physical copy of 
 
 ### Lab Assignments
 
-There will be 4 lab (homework) assignments that together are worth 25% of your grade. The lab assignments will be completed outside of class (as homework) and submitted electronically via the course website. 
+There will be six lab assignments that together are worth 90% of your grade. You will need to complete the lab assignments outside of class (as homework) and submit them via email to the instructor and TA. You can access each of the lab assignment from the [Assignments page of the website](#assignments). For each lab assignment, you may choose to work alone or in a group. Working in a group may allow you to explore answers to a question with other students before submitting your lab assignment. Your lab assignment should be submitted via the course website before the end of the day that they are due (i.e., by 11:59 PM that day). 
 
 As a student of statistics, working through all of the lab assignments is an important piece in building a complete understanding of the concepts, as well as allowing you to practice doing statistics. As a way of connecting the work you are doing across all lab assignments, you will explore the same data set for each lab assignment.
 
-You can download and view a PDF of the lab assignment from the [Course Schedule page of the website](#schedule). For each lab assignment, you may choose to work alone or in a group. Working in a group may allow you to explore answers to a question with other students before submitting your lab assignment. Your lab assignment should be submitted via the course website before the end of the day that they are due (i.e., by 11:59 PM that day). 
+
 
 <br />
 
 
-### Exams
+### Exit Tickets
 
-There is a midterm and a final exam, which together are worth a total of 50% of your grade. These exams are take-home and are to be completed independently. In this course, you may use any materials you like to complete exams (e.g., your book, your notes, internet resources, etc.) but you may not consult with other people or talk with your peers as you are taking exams. If it is discovered that collaboration has occurred on the exam, you will receive a grade of 0 on that exam and be turned in for academic dishonesty.
-
-You will have one week to work on each exam outside of class and then submit your work to the instructor via the course website. The exams will involve using statistical software (R). More details about the structure of each of these exams will be given later. 
-
-<!-- **Group Discussions:** You will participate in regular group discussion activities, and the purpose of these activities is for you to apply what you are reading about and to help each other learn important content in the course.  These are also great opportunities for you to ask questions and get more detailed help from your peers, the instructor, or the TA. Note that the instructor and/or TA will be monitoring your discussions each week. However, just as we would not be able to hear every single group discussion if you were in a physical classroom, we may not have time to carefully read every single word posted by members of your group or correct every single mistake we see. However, we will read as many posts as we can and try to guide your group in the right direction.  -->
-
-<!-- One important component of this course is **active student participation**. Although the textbook, course materials, instructor, and teaching assistant are important sources of information, so too are your classmates. To facilitate interaction among your classmates, I will break you into small discussion groups at the beginning of the semester, and you will be required to interact with your discussion group frequently throughout the semester.  -->
-
-<!-- For each discussion, the group must attempt to talk about a particular topic/concept and answer certain questions about this topic/concept.  -->
+Exit tickets will be given in the last 5 minutes of each class session. The “ticket” consists of a single question designed to assess your knowledge about or have you reflect on the day’s class content. These questions are to be completed individually. If you miss class you will not have the opportunity to complete the exit ticket for that day (see *Policy for Missing Class and Making up Missed/Late Work* for exceptions).
 
 
 <br />
@@ -138,7 +148,7 @@ You will have one week to work on each exam outside of class and then submit you
 
 ### ChatGPT and Other AI
 
-Artificial intelligence (AI) language models, such as ChatGPT, may be used to help you write R syntax with appropriate citation, but not for answering any of the questions on the assignment. If you are in doubt as to whether you are using AI language models appropriately in this course, I encourage you to discuss your situation with me or the TA. Examples of citing AI language models are available at: <https://libguides.umn.edu/chatgpt>. You are responsible for ensuring any syntax composed by AI is correct.
+Artificial intelligence (AI) language models, such as ChatGPT, may be used to help you write R syntax with appropriate citation, but not for answering any of the questions on the assignments or exams. (If a question on the assignments/exams asks you to provide your syntax, you cannot use AI to produce that syntax!) If you are in doubt as to whether you are using AI language models appropriately in this course, I encourage you to discuss your situation with me or the TA. Examples of citing AI language models are available at: <https://libguides.umn.edu/chatgpt>. You are responsible for ensuring any syntax composed by AI is correct. **Any student caught using AI on the assignments or exit tickets will be given a zero on that particular assignment/exit ticket and reported to the university’s Office for Community Standards for scholastic dishonesty.**
 
 <br />
 
@@ -153,8 +163,9 @@ Students are responsible for planning their schedules to avoid excessive conflic
 - Please note that I will not be recording class sessions at the request of individual students, nor will I be Zooming students in to the class. Although, if you can arrange it with a classmate, they can Zoom you in.
   + If you are zooming in a classmate, please let the instructor know.
 - If you will be gone the day an assignment is due, you will need to make arrangements with the instructor about when you will turn in the assignment. 
+- To make up an exit ticket for a missed class you need to email your completed in-class activity to the instructor in a timely manner (within 1 week unless you specifically get approval from the instructor). Once the instructor receives your in-class activity, they will email you the exit ticket question for that day. 
 
-If you do not communicate with the instructor and make arrangements for turning in work when you are absent, the assignment will receive a 0. 
+If you do not communicate with the instructor and make arrangements for turning in work when you are absent, the assignment/exit ticket will receive a 0. 
 :::
 
 <br />
@@ -162,7 +173,14 @@ If you do not communicate with the instructor and make arrangements for turning 
 
 ### Evaluation of Student Performance
 
-Course grades will be based entirely on performance on the homework assignments. The points from the eight homework assignment will be pooled to compute a percentage in the class, which will be converted to a final course grade using:
+You will be evaluated on the basis of your performance on the assignments and exit tickets outlined above. Your course grade will be computed as a weighted average of: 
+
+Type            | Individual or Group? | Percent of Grade |
+--------------- | -------------------- | ---------------- |
+Lab Assignments | Individual or Group  | 90%              |
+Exit Tickets    | Individual           | 10%              |
+
+This overall percentage in the class will then be converted to a final course grade using:
 
 Cutoff    | Grade | Definition for Graduate Credit |
 --------- | ----- | ------------------------------ |
@@ -179,7 +197,14 @@ Cutoff    | Grade | Definition for Graduate Credit |
 
 If you are taking the course S/N, the minimum criterion to receive an S is 80% (the equivalent of a B-- letter grade). The S grade does not carry grade points and is not part of the GPA calculation, but the credits will count toward the student's degree program if allowed by the college, campus, or program.
 
-*Any student who does not complete all homework assignments without making prior arrangements with the instructor will receive a grade of F/N.*
+*Any student who does not complete all lab assignments by the time the final lab assignment is due without making prior arrangements with the instructor will receive a grade of F/N.*
+
+<br />
+
+
+### Extra Credit Policy
+
+Extra credit *may* be offered throughout the semester, but is not guaranteed. 
 
 <br />
 
@@ -206,25 +231,9 @@ Stress management is an important piece of the skill set needed for success in g
 <p style="font-size:70%;">You can follow Tilly the Therapy Chicken on Twitter (@TherapyChicken).</p>
 :::
 
-<br />
 
 
-## Statistical Computing and Technology
 
-Statistical computing is an integral part of statistical work, and subsequently, EPsy 5261. To support your learning in this area, this course will emphasize the use of R. R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS [https://www.r-project.org](https://www.r-project.org).
-
-You can install R and RStudio onto your local machine. (Information about how to download and use the software can be found in the technology reference guide on the course website.) You are responsible for getting things to work on your computer. While it should be straightforward, each OS and computer has their quirks. I can try to help you with this if you are having trouble.
-
-<br />
-
-
-:::technology
-### Technology Policy
-
-The course uses technology on a regular basis during both instruction and assessments (e.g., homework assignments, exams, etc.). Student difficulty with obtaining or operating the various software programs and technologies---including printer trouble---will not be acceptable as an excuse for late work. Due to the variation in computer types and systems, the instructor or TA may not be able to assist in trouble shooting all problems you may have.
-
-<!-- <p style="font-size:70%;">gg_goldy created by Rita Sandidge, CSPP</p> -->
-:::
 
 <br />
 
