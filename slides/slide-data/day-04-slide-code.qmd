@@ -1,0 +1,76 @@
+---
+title: "day-04-slide-code"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+library(ggformula)
+```
+
+```{r}
+symmetric <- data.frame(rnorm(10000, mean = 10, sd = 5))
+gf_density(~rnorm.10000..mean...10..sd...5., data = symmetric, xlab = "Variable X")
+
+```
+
+```{r}
+skewed <- data.frame(rbeta(10000,100,2))
+colnames(skewed)[1] <- "beta"
+skewed[1] <- skewed[1]*(10+0.08)
+
+gf_density(~beta, data = skewed, xlab = "Variable Y")
+```
+
+```{r}
+
+```
+
+```{r}
+symmetric <- data.frame(rnorm(10000, mean = 10, sd = 1))
+gf_density(~rnorm.10000..mean...10..sd...1., data = symmetric, xlab = "Variable X") + expand_limits(x = c(-10, 30))
+```
+
+```{r}
+skewed <- data.frame(rbeta(10000,100,2))
+colnames(skewed)[1] <- "beta"
+skewed[1] <- skewed[1]*-1
+
+gf_density(~beta, data = skewed, xlab = "Variable Y")
+```
+
+```{r}
+library(truncnorm)
+nn <- 1e4
+set.seed(1)
+sims <- c(rtruncnorm(nn/2, a=1, b=5, mean=2, sd=.5),
+                    rtruncnorm(nn/2, a=1, b=5, mean=4, sd=.5))
+sims<- data.frame(sims)
+gf_density(~sims, data = sims, xlab = "Variable Y")
+```
+
+```{r}
+
+nn <- 1e4
+set.seed(1)
+sims2 <- c(rtruncnorm(nn/3, a=1, b=5, mean=2, sd=.5),
+                    rtruncnorm(nn/3, a=1, b=5, mean=4, sd=.5))
+sims2<- data.frame(sims2)
+gf_density(~sims2, data = sims2, xlab = "Variable Z
+```
+
+```{r}
+symmetric <- c(rnorm(10000, mean = 10, sd = 2))
+symmetric2 <- c(rnorm(10000, mean = 20, sd = 5))
+symmetric3 <- c(rnorm(10000, mean = 40, sd = 2))
+newdat <- data.frame(c(symmetric, symmetric2, symmetric3))
+names(newdat)
+gf_density(~c.symmetric..symmetric2..symmetric3., data = newdat, xlab = "Variable W")
+```
+
+```{r}
+uni <- data.frame(runif(10000, 0, 30))
+
+gf_density(~ runif.10000..0..30., data = uni, xlab = "Variable V")
+```

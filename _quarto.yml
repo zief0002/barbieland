@@ -5,6 +5,7 @@ project:
     - "*.qmd"
     - "data/"
     - "files/"
+    - "!slides/"
     - "handouts/"
     - "scripts/"
     - "!admin/"

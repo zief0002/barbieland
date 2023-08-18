@@ -31,15 +31,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 
 <!-- <span style="margin-left:5px; color:#5a067d;font-size:12px;">*[Notes and Script file updated 09-24-2019]*</span></td> -->
 
-
+<!-- READING <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
 
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">1</td>
 <td style="vertical-align:middle;">Sept. 05</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
-</td>
+<td align="center" style="vertical-align:middle;"></td>
 <td>Welcome to EPsy 5261</td>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 </tr>
@@ -56,9 +54,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">2</td>
 <td style="vertical-align:middle;">Sept. 07</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
-</td>
+<td align="center" style="vertical-align:middle;"></td>
 <td>Introduction to Coding</td>
 <td align="center" style="vertical-align:middle;">
   <a class="my-link" href="files/day02.zip"><span class="fa-solid fa-folder"></span></a>
@@ -71,7 +67,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">3</td>
 <td style="vertical-align:middle;">Sept. 12</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/01-01-r-and-rstudio-installation.html">Ch. 1--2</span></a>
 </td>
 <td>Introduction to R and RStudio</td>
 <td align="center" style="vertical-align:middle;">
@@ -91,7 +87,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">4</td>
 <td style="vertical-align:middle;">Sept. 14</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/02-01-data-structure-and-attributes.html">Ch. 4--6</span></a>
 </td>
 <td>Visualization and Numerical Summaries</td>
 <td align="center" style="vertical-align:middle;">
@@ -104,9 +100,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">5</td>
 <td style="vertical-align:middle;">Sept. 19</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
-</td>
+<td align="center" style="vertical-align:middle;"></td>
 <td>Visualization and Numerical Summaries</td>
 <td align="center" style="vertical-align:middle;">
   <a class="my-link" href="files/day05.zip"><span class="fa-solid fa-folder"></span></a>
@@ -117,7 +111,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <!-- Unit 03: HYPOTHESIS TESTING -->
 
 <tr>
-<td colspan="5"><b>Unit 03: HYPOTHESIS TESTING</b></td>
+<td colspan="5"><b>Unit 03: Hypothesis Testing</b></td>
 </tr>
 
 
@@ -126,9 +120,9 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">6</td>
 <td style="vertical-align:middle;">Sept. 21</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/04-01-case-study-teen-sleep.html">Ch. 7--8</span></a>
 </td>
-<td>Sampling Variability</td>
+<td>Estimating Uncertainty</td>
 <td align="center" style="vertical-align:middle;">
   <a class="my-link" href="files/day06.zip"><span class="fa-solid fa-folder"></span></a>
 </td>
@@ -139,9 +133,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">7</td>
 <td style="vertical-align:middle;">Sept. 26</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
-</td>
+<td align="center" style="vertical-align:middle;"></td>
 <td>Introduction to Hypothesis Testing</td>
 <td align="center" style="vertical-align:middle;">
   <a class="my-link" href="files/day07.zip"><span class="fa-solid fa-folder"></span></a>
@@ -153,9 +145,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">8</td>
 <td style="vertical-align:middle;">Sept. 28</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
-</td>
+<td align="center" style="vertical-align:middle;"></td>
 <td>Simulation-Based Hypothesis Testing</td>
 <td align="center" style="vertical-align:middle;">
   <a class="my-link" href="files/day08.zip"><span class="fa-solid fa-folder"></span></a>
@@ -168,7 +158,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">9</td>
 <td style="vertical-align:middle;">Oct. 03</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/04-03-one-sample-test.html">Ch. 9--11</span></a>
 </td>
 <td>Hypothesis Testing with the *t*-distribution</td>
 <td align="center" style="vertical-align:middle;">
@@ -182,7 +172,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">10</td>
 <td style="vertical-align:middle;">Oct. 05</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/04-06-one-sample-test-proportions.html">Ch. 12</span></a>
 </td>
 <td>Hypothesis Testing for Proportions</td>
 <td align="center" style="vertical-align:middle;">
@@ -196,7 +186,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">11</td>
 <td style="vertical-align:middle;">Oct. 10</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/05-01-two-sample-t-test.html">Ch. 13--14</span></a>
 </td>
 <td>Hypothesis Testing for Comparing Two Means</td>
 <td align="center" style="vertical-align:middle;">
@@ -210,7 +200,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">12</td>
 <td style="vertical-align:middle;">Oct. 12</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/05-03-two-sample-test-proportions.html">Ch. 15</span></a>
 </td>
 <td>Hypothesis Testing for Comparing Two Proportions</td>
 <td align="center" style="vertical-align:middle;">
@@ -224,7 +214,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">13</td>
 <td style="vertical-align:middle;">Oct. 17</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/06-01-generalization.html">Ch. 17</span></a>
 </td>
 <td>Study Design: Generalizability</td>
 <td align="center" style="vertical-align:middle;">
@@ -238,7 +228,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">14</td>
 <td style="vertical-align:middle;">Oct. 19</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/06-02-cause-and-effect.html">Ch. 18</span></a>
 </td>
 <td>Study Design: Causal Claims</td>
 <td align="center" style="vertical-align:middle;">
@@ -269,7 +259,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">16</td>
 <td style="vertical-align:middle;">Oct. 26</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/07-01-confidence-intervals.html">Ch. 19--21</span></a>
 </td>
 <td>Introduction to Confidence Intervals</td>
 <td align="center" style="vertical-align:middle;">
@@ -282,9 +272,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">17</td>
 <td style="vertical-align:middle;">Oct. 31</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
-</td>
+<td align="center" style="vertical-align:middle;"></td>
 <td>Confidence Intervals for a Single Mean</td>
 <td align="center" style="vertical-align:middle;">
   <a class="my-link" href="files/day17.zip"><span class="fa-solid fa-folder"></span></a>
@@ -296,9 +284,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">18</td>
 <td style="vertical-align:middle;">Nov. 02</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
-</td>
+<td align="center" style="vertical-align:middle;"></td>
 <td>Confidence Intervals for a Single Proportion</td>
 <td align="center" style="vertical-align:middle;">
   <a class="my-link" href="files/day18.zip"><span class="fa-solid fa-folder"></span></a>
@@ -310,9 +296,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">19</td>
 <td style="vertical-align:middle;">Nov. 07</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
-</td>
+<td align="center" style="vertical-align:middle;"></td>
 <td>Confidence Intervals for Comparing Two Means</td>
 <td align="center" style="vertical-align:middle;">
   <a class="my-link" href="files/day19.zip"><span class="fa-solid fa-folder"></span></a>
@@ -324,9 +308,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">20</td>
 <td style="vertical-align:middle;">Nov. 09</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
-</td>
+<td align="center" style="vertical-align:middle;"></td>
 <td>Confidence Intervals for Comparing Two Proportions</td>
 <td align="center" style="vertical-align:middle;">
   <a class="my-link" href="files/day20.zip"><span class="fa-solid fa-folder"></span></a>
@@ -338,9 +320,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">21</td>
 <td style="vertical-align:middle;">Nov. 14</td>
-<td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
-</td>
+<td align="center" style="vertical-align:middle;"></td>
 <td>More Confidence Intervals</td>
 <td align="center" style="vertical-align:middle;">
   <a class="my-link" href="files/day21.zip"><span class="fa-solid fa-folder"></span></a>
@@ -353,7 +333,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">22</td>
 <td style="vertical-align:middle;">Nov. 16</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  <a class="my-link" href="https://zief0002.github.io/epsy-5261/07-04-standardized-effects-means.html">Ch. 22--23</span></a>
 </td>
 <td>Standardized Effect Size</td>
 <td align="center" style="vertical-align:middle;">
