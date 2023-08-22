@@ -3,7 +3,7 @@ title: "Assignment Due Dates"
 ---
 
 
-Below are the due dates for the assignments, as well as links to each assignment. *All assignments are due by 5:00 PM on the due date.* The due dates may change at the instructor's discretion. Any revised due dates will be announced in class and posted to the website. 
+Below are the due dates for the assignments, as well as links to each assignment. *All assignments are due by 11:59 PM on the due date.* The due dates may change at the instructor's discretion. Any revised due dates will be announced in class and posted to the website. 
 
 <br />
 
@@ -14,68 +14,60 @@ Below are the due dates for the assignments, as well as links to each assignment
 <th style="width:50%;">Assignment</th>
 <!-- <th style="width:15%;">Due Date (T/R)</th> -->
 <th style="width:30%;">Due Date</th>
-<th style="width:10%;text-align:center">HTML</th>
+<th style="width:10%;text-align:center">ZIP File</th>
 </tr>
 </thead>
 
 <tbody>
 
 <tr>
-<td>Assignment \#1: *Introduction to Statistical Computing* 
+<td>[Lab Assignment \#1](assignments/assignment-01.html) 
   <!-- <span style="margin-left:20px; color:red;">*[Updated 09-13-2021]*</span> -->
 </td>
 <!-- <td>Sept. 19</td> -->
-<td>Sept. 27</td>
+<td>Sept. 14</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link"></span>](assignments/assignment-01-introduction-to-statistical-computing.html)
+  [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-01.html)
 </td>
 </tr>
 
 
 
 <tr>
-<td>Assignment \#2: *Simple Regression: Description*</td>
+<td>[Lab Assignment \#2](assignments/assignment-02.html)</td>
 <!-- <td>Oct. 01</td> -->
-<td>Oct. 09</td>
+<td>Sept. 28</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link"></span>](assignments/assignment-02-simple-regression-description.html)
+  [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-02.html)
 </td>
 </tr>
 
-<!-- <tr> -->
-<!-- <td>Assignment \#3: *Correlation and Standardized Regression*</td> -->
-<!-- <!-- <td>Oct. 10</td> -->
-<!-- <td>Oct. 11</td> -->
-<!-- <td align="center" style="vertical-align:middle;"> -->
-<!--   [<span class="fas fa-link" style="color: #ff2600; font-size: 20px;"></span>](assignments/f21-assignment-03-correlation-and-standardized-regression.html) -->
-<!-- </td> -->
-<!-- </tr> -->
 
 <tr>
-<td>Assignment \#3: *Simple Regression: Inference*</td>
+<td>[Lab Assignment \#3](assignments/assignment-03.html)</td>
 <!-- <span style="margin-left:20px; color:red;">*[Updated 10-11-2023]*</span> -->
 <!-- <td>Oct. 22</td> -->
-<td>Oct. 25</td>
+<td>Oct. 12</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link"></span>](assignments/assignment-03-simple-regression-inference.html)
+  [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-03.html)
 </td>
 </tr>
 
 <tr>
-<td>Assignment \#4: *Introduction to Multiple Regression*</td>
+<td>Lab Assignment \#4</td>
 <!-- <td>Oct. 31</td> -->
-<td>Nov. 08</td>
+<td>Oct. 26</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link"></span>](assignments/assignment-04-introduction-to-multiple-regression.html)
+  <!-- [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-04-introduction-to-multiple-regression.html) -->
 </td>
 </tr>
 
 <tr>
-<td>Assignment \#5: *Regression Assumptions*</td>
+<td>Lab Assignment \#5</td>
 <!-- <td>Nov. 12</td> -->
-<td>Nov. 15</td>
+<td>Nov. 16</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link"></span>](assignments/assignment-05-regression-assumptions.html)
+  <!-- [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-05-regression-assumptions.html) -->
 </td>
 </td>
 </tr>
@@ -83,34 +75,14 @@ Below are the due dates for the assignments, as well as links to each assignment
 
 
 <tr>
-<td>Assignment \#6: *Dichotomous Categorical Predictors*</td>
+<td>Lab Assignment \#6</td>
 <!-- <td>Nov. 19</td> -->
-<td>Nov. 29</td>
+<td>Dec. 14</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link"></span>](assignments/assignment-06-dichotomous-categorical-predictors.html)
+  <!-- [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-06-dichotomous-categorical-predictors.html) -->
 </td>
 </tr>
 
-
-<tr>
-<td>Assignment \#7: *Polychotomous Categorical Predictors*
-  <!-- <span style="margin-left:20px; color:red;">*[Updated 11-12-2019]*</span> -->
-  </td>
-<!-- <td>Dec. 03</td> -->
-<td>Dec. 06</td>
-<td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link"></span>](assignments/assignment-07-polychotomous-categorical-predictors.html)
-</td>
-</tr>
-
-
-<tr>
-<td>Assignment \#8: *Interaction Models*</td>
-<td>Dec. 15 (due at 12:00pm)</td>
-<td align="center" style="vertical-align:middle;">
-  [<span class="fas fa-link"></span>](assignments/assignment-08-interactions.html)
-</td>
-</tr>
 
 </tbody>
 </table>
