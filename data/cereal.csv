@@ -1,4 +1,4 @@
-Name,Company,Serving,Calories,Fat,Sodium,Carbs,Fiber,Sugars,Protein
+name,company,serving,calories,fat,sodium,carbs,fiber,sugars,protein
 AppleJacks,K,1,117,0.6,143,27,0.5,15,1
 Boo Berry,G,1,118,0.8,211,27,0.1,14,1
 Cap'n Crunch,Q,0.75,144,2.1,269,31,1.1,16,1.3
