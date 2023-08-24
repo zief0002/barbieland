@@ -21,41 +21,43 @@ Below are the due dates for the assignments, as well as links to each assignment
 <tbody>
 
 <tr>
-<td>[Lab Assignment \#1](assignments/assignment-01.html) 
-  <!-- <span style="margin-left:20px; color:red;">*[Updated 09-13-2021]*</span> -->
+<td>
+  [Lab Assignment \#1](assignments/assignment-01.html) 
 </td>
-<!-- <td>Sept. 19</td> -->
 <td>Sept. 14</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-01.html)
+  [<span class="fa-solid fa-file-signature"></span>](files/assignments/lab-assignment-01.zip)
 </td>
 </tr>
 
 
 
 <tr>
-<td>[Lab Assignment \#2](assignments/assignment-02.html)</td>
-<!-- <td>Oct. 01</td> -->
+<td>
+  [Lab Assignment \#2](assignments/assignment-02.html)
+</td>
 <td>Sept. 28</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-02.html)
+  [<span class="fa-solid fa-file-signature"></span>](files/assignments/lab-assignment-02.zip)
 </td>
 </tr>
 
 
 <tr>
-<td>[Lab Assignment \#3](assignments/assignment-03.html)</td>
-<!-- <span style="margin-left:20px; color:red;">*[Updated 10-11-2023]*</span> -->
-<!-- <td>Oct. 22</td> -->
+<td>
+  [Lab Assignment \#3](assignments/assignment-03.html)
+</td>
 <td>Oct. 12</td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-03.html)
+  [<span class="fa-solid fa-file-signature"></span>](files/assignments/lab-assignment-03.zip)
 </td>
 </tr>
 
+
 <tr>
-<td>Lab Assignment \#4</td>
-<!-- <td>Oct. 31</td> -->
+<td>
+  Lab Assignment \#4
+</td>
 <td>Oct. 26</td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-04-introduction-to-multiple-regression.html) -->

@@ -6,7 +6,7 @@ format:
     df-print: paged
 theme: "lumen"
 highlight-style: "atom-one"
-bibliography: '../assets/epsy8252.bib'
+bibliography: '../assets/epsy5261.bib'
 csl: '../assets/apa-single-spaced.csl'
 ---
 

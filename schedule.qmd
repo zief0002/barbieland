@@ -21,7 +21,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <th style="width:10%;text-align:center"">Day</th>
 <th style="width:10%;">Date</th>
 <th style="width:15%;text-align:center">Reading</th>
-<th style="width:50%;">Topic</th>
+<th style="width:50%;">Topic/Slides</th>
 <th style="width:10%;text-align:center">Materials</th>
 </tr>
 </thead>
@@ -55,9 +55,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">2</td>
 <td style="vertical-align:middle;">Sept. 07</td>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Introduction to Coding</td>
+<td>
+  Introduction to Coding
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day02.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day02.zip)
 </td>
 </tr>
 
@@ -67,11 +69,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">3</td>
 <td style="vertical-align:middle;">Sept. 12</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/01-01-r-and-rstudio-installation.html">Ch. 1--2</span></a>
+  [Ch. 1--2](https://zief0002.github.io/epsy-5261/01-01-r-and-rstudio-installation.html)
 </td>
-<td>Introduction to R and RStudio</td>
+<td>
+  [Introduction to R and RStudio](files/slides/day03.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day03.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day03.zip)
 </td>
 </tr>
 
@@ -87,11 +91,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">4</td>
 <td style="vertical-align:middle;">Sept. 14</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/02-01-data-structure-and-attributes.html">Ch. 4--6</span></a>
+  [Ch. 4--6](https://zief0002.github.io/epsy-5261/02-01-data-structure-and-attributes.html)
 </td>
-<td>Visualization and Numerical Summaries</td>
+<td>
+  [Visualization and Numerical Summaries](files/slides/day04.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day04.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day04.zip)
 </td>
 </tr>
 
@@ -109,9 +115,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">5</td>
 <td style="vertical-align:middle;">Sept. 19</td>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Visualization and Numerical Summaries</td>
+<td>
+  [Visualization and Numerical Summaries](files/slides/day05.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day05.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder">](files/activities/day05.zip)
 </td>
 </tr>
 
@@ -128,11 +136,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">6</td>
 <td style="vertical-align:middle;">Sept. 21</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/04-01-case-study-teen-sleep.html">Ch. 7--8</span></a>
+  [Ch. 7--8](https://zief0002.github.io/epsy-5261/04-01-case-study-teen-sleep.html)
 </td>
-<td>Estimating Uncertainty</td>
+<td>
+  [Estimating Uncertainty](files/slides/day06.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day06.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day06.zip)
 </td>
 </tr>
 
@@ -142,9 +152,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">7</td>
 <td style="vertical-align:middle;">Sept. 26</td>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Introduction to Hypothesis Testing</td>
+<td>
+  [Introduction to Hypothesis Testing](files/slides/day07.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day07.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day07.zip)
 </td>
 </tr>
 
@@ -154,9 +166,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">8</td>
 <td style="vertical-align:middle;">Sept. 28</td>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Simulation-Based Hypothesis Testing</td>
+<td>
+  [Simulation-Based Hypothesis Testing](files/slides/day08.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day08.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day08.zip)
 </td>
 </tr>
 
@@ -166,11 +180,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">9</td>
 <td style="vertical-align:middle;">Oct. 03</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/04-03-one-sample-test.html">Ch. 9--11</span></a>
+  [Ch. 9--11](https://zief0002.github.io/epsy-5261/04-03-one-sample-test.html)
 </td>
-<td>Hypothesis Testing with the *t*-distribution</td>
+<td>
+  [Hypothesis Testing with the *t*-distribution](files/slides/day09.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day09.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day09.zip)
 </td>
 </tr>
 
@@ -180,11 +196,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">10</td>
 <td style="vertical-align:middle;">Oct. 05</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/04-06-one-sample-test-proportions.html">Ch. 12</span></a>
+  [Ch. 12](https://zief0002.github.io/epsy-5261/04-06-one-sample-test-proportions.html)
 </td>
-<td>Hypothesis Testing for Proportions</td>
+<td>
+  [Hypothesis Testing for Proportions](files/slides/day10.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day10.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder">](files/activities/day10.zip)
 </td>
 </tr>
 
@@ -194,11 +212,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">11</td>
 <td style="vertical-align:middle;">Oct. 10</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/05-01-two-sample-t-test.html">Ch. 13--14</span></a>
+  [Ch. 13--14](https://zief0002.github.io/epsy-5261/05-01-two-sample-t-test.html)
 </td>
-<td>Hypothesis Testing for Comparing Two Means</td>
+<td>
+  [Hypothesis Testing for Comparing Two Means](files/slides/day11.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day11.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day11.zip)
 </td>
 </tr>
 
@@ -208,11 +228,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">12</td>
 <td style="vertical-align:middle;">Oct. 12</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/05-03-two-sample-test-proportions.html">Ch. 15</span></a>
+  [Ch. 15](https://zief0002.github.io/epsy-5261/05-03-two-sample-test-proportions.html)
 </td>
-<td>Hypothesis Testing for Comparing Two Proportions</td>
+<td>
+  [Hypothesis Testing for Comparing Two Proportions](files/slides/day12.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day12.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day12.zip)
 </td>
 </tr>
 
@@ -222,11 +244,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">13</td>
 <td style="vertical-align:middle;">Oct. 17</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/06-01-generalization.html">Ch. 17</span></a>
+  [Ch. 17](https://zief0002.github.io/epsy-5261/06-01-generalization.html)
 </td>
-<td>Study Design: Generalizability</td>
+<td>
+  [Study Design: Generalizability](files/slides/day13.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day13.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day13.zip)
 </td>
 </tr>
 
@@ -236,11 +260,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">14</td>
 <td style="vertical-align:middle;">Oct. 19</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/06-02-cause-and-effect.html">Ch. 18</span></a>
+  [Ch. 18](https://zief0002.github.io/epsy-5261/06-02-cause-and-effect.html)
 </td>
-<td>Study Design: Causal Claims</td>
+<td>
+  [Study Design: Causal Claims](files/slides/day14.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day14.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day14.zip)
 </td>
 </tr>
 
@@ -267,11 +293,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">16</td>
 <td style="vertical-align:middle;">Oct. 26</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/07-01-confidence-intervals.html">Ch. 19--21</span></a>
+  [Ch. 19--21](https://zief0002.github.io/epsy-5261/07-01-confidence-intervals.html)
 </td>
-<td>Introduction to Confidence Intervals</td>
+<td>
+  [Introduction to Confidence Intervals](files/slides/day16.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day16.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day16.zip)
 </td>
 </tr>
 
@@ -281,9 +309,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">17</td>
 <td style="vertical-align:middle;">Oct. 31</td>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Confidence Intervals for a Single Mean</td>
+<td>
+  [Confidence Intervals for a Single Mean](files/slides/day17.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day17.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day17.zip)
 </td>
 </tr>
 
@@ -293,9 +323,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">18</td>
 <td style="vertical-align:middle;">Nov. 02</td>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Confidence Intervals for a Single Proportion</td>
+<td>
+  [Confidence Intervals for a Single Proportion](files/slides/day18.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day18.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day18.zip)
 </td>
 </tr>
 
@@ -305,9 +337,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">19</td>
 <td style="vertical-align:middle;">Nov. 07</td>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Confidence Intervals for Comparing Two Means</td>
+<td>
+  [Confidence Intervals for Comparing Two Means](files/slides/day19.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day19.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day19.zip)
 </td>
 </tr>
 
@@ -317,9 +351,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">20</td>
 <td style="vertical-align:middle;">Nov. 09</td>
 <td align="center" style="vertical-align:middle;"></td>
-<td>Confidence Intervals for Comparing Two Proportions</td>
+<td>
+  [Confidence Intervals for Comparing Two Proportions](files/slides/day20.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day20.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day20.zip)
 </td>
 </tr>
 
@@ -329,9 +365,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">21</td>
 <td style="vertical-align:middle;">Nov. 14</td>
 <td align="center" style="vertical-align:middle;"></td>
-<td>More Confidence Intervals</td>
+<td>
+  [More Confidence Intervals](files/slides/day21.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day21.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day21.zip)
 </td>
 </tr>
 
@@ -341,11 +379,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">22</td>
 <td style="vertical-align:middle;">Nov. 16</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="https://zief0002.github.io/epsy-5261/07-04-standardized-effects-means.html">Ch. 22--23</span></a>
+  [Ch. 22--23](https://zief0002.github.io/epsy-5261/07-04-standardized-effects-means.html)
 </td>
-<td>Standardized Effect Size</td>
+<td>
+  [Standardized Effect Size](files/slides/day22.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day22.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day22.zip)
 </td>
 </tr>
 
@@ -382,11 +422,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">25</td>
 <td style="vertical-align:middle;">Nov. 28</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  TBD
 </td>
-<td>Introduction to Correlation</td>
+<td>
+  [Introduction to Correlation](files/slides/day25.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day25.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day25.zip)
 </td>
 </tr>
 
@@ -396,11 +438,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">26</td>
 <td style="vertical-align:middle;">Nov. 30</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  TBD
 </td>
-<td>Introduction to Simple Linear Regression</td>
+<td>
+  [Introduction to Simple Linear Regression](files/slides/day26.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day26.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day26.zip)
 </td>
 </tr>
 
@@ -410,11 +454,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">27</td>
 <td style="vertical-align:middle;">Dec. 05</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  TBD
 </td>
-<td>Simple Linear Regression (Continued)</td>
+<td>
+  [Simple Linear Regression (Continued)](files/slides/day27.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day27.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day27.zip)
 </td>
 </tr>
 
@@ -424,11 +470,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">28</td>
 <td style="vertical-align:middle;">Dec. 07</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  TBD
 </td>
-<td>Simple Linear Regression (Continued)</td>
+<td>
+  [Simple Linear Regression (Continued)](files/slides/day28.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day28.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day28.zip)
 </td>
 </tr>
 
@@ -438,11 +486,13 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;">29</td>
 <td style="vertical-align:middle;">Dec. 12</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- <a class="my-link" href="readings/00-welcome-to-8264.html"><span class="fa fa-book"></span></a> -->
+  TBD
 </td>
-<td>Review Day</td>
+<td>
+  [Review Day](files/slides/day29.pdf)
+</td>
 <td align="center" style="vertical-align:middle;">
-  <a class="my-link" href="files/day29.zip"><span class="fa-solid fa-folder"></span></a>
+  [<span class="fa-solid fa-folder"></span>](files/activities/day29.zip)
 </td>
 </tr>
 

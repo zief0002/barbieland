@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-08-22">
+<meta name="dcterms.date" content="2023-08-23">
 <meta name="description" content="This assignment is worth 15 points. Each question is worth 1 point unless otherwise noted.    Copyright EPSY 5261, 2023">
 
 <title>EPsy 5261 - Assignment 03</title>
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -160,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 22, 2023</p>
+      <p class="date">August 23, 2023</p>
     </div>
   </div>
   
@@ -184,21 +218,38 @@ ul.task-list li input[type="checkbox"] {
 <section id="instructions" class="level2">
 <h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
 <p>You will use the <em>cereal.csv</em> data set to answer questions in this lab. The <a href="https://zief0002.github.io/barbieland/assignments/cereal.html">data codebook</a> includes a description of how the data were collected and of each of the attributes included in the data.</p>
-<p>Use the code chunks in the <em>assignment03.qmd</em> file to load packages, import the data, and carry out any R computations. Submit a PDF document of your responses to the questions in this assignemnt.</p>
+<p>Use the code chunks in the <em>assignment03.qmd</em> file to load packages, import the data, and carry out any R computations. Submit a PDF document of your responses to the questions in this assignment.</p>
 <p><br></p>
 </section>
 <section id="part-1-visualizing-summarizing-and-describing-the-sample-data" class="level1">
 <h1>Part 1: Visualizing, Summarizing, and Describing the Sample Data</h1>
 <ol type="1">
-<li><p>Create a histogram for the <code>Sugars</code> attribute. Be sure to update the labels and add a color of your choice. Include your histogram in your document.</p></li>
-<li><p>Use the <code>df_stats()</code> function to compute a set of numerical summary measures for the <code>Sugars</code> attribute. Copy-and-paste (or screenshot) the output from this function into the document you will submit. If you copy-and-paste the output into your document, change the font to a monospaced font (e.g., Courier, Consolata).</p></li>
+<li><p>Create a histogram for the <code>sugars</code> attribute. Be sure to update the labels and add a color of your choice. Include your histogram in your document.</p></li>
+<li><p>Use the <code>df_stats()</code> function to compute a set of numerical summary measures for the <code>sugars</code> attribute. Copy-and-paste (or screenshot) the output from this function into the document you will submit. If you copy-and-paste the output into your document, change the font to a monospaced font (e.g., Courier, Consolata).</p></li>
 <li><p><strong>(3pts.)</strong> Write a couple of sentences describing the shape, center, and variation of the distribution using the context of grams of sugar in cereal.</p></li>
 </ol>
 <p><br></p>
 </section>
 <section id="part-2-estimating-uncertainty" class="level1">
 <h1>Part 2: Estimating Uncertainty</h1>
-<p>Suppose a social scientist carried out a bootstrap simulation (use the do() function similar to what we did in Day 5 activity) to estimate the standard error of the sample mean amount of sugar. The resulting histogram and summary statistics of this simulation are shown below:</p>
+<p>Suppose a social scientist carried out a bootstrap simulation (used the <code>do()</code> function similar to how we did in the Day 5 activity) to estimate the standard error of the sample mean amount of sugar. The resulting histogram and summary statistics of this simulation are shown below:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-bootstrap-dist" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../img/lab-03-hist.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Distribution of 1000 bootstrapped means.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-highlight-style="atom-one">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">df_stats</span>(<span class="sc">~</span>result, <span class="at">data =</span> bootstrap_means)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  response    min       Q1  median       Q3     max     mean        sd    n missing</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span>   result <span class="fl">9.7328</span> <span class="fl">10.27895</span> <span class="fl">10.4143</span> <span class="fl">10.56595</span> <span class="fl">11.0842</span> <span class="fl">10.42228</span> <span class="fl">0.2216639</span> <span class="dv">1000</span>       <span class="dv">0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><br></p>
 <ol start="4" type="1">
 <li><p>Explain why we expect the mean of this distribution of sample means to be 10.42.</p></li>
 <li><p>What is the estimated standard error of the means?</p></li>
@@ -208,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="part-3-hypothesis-test-to-compare-data-to-a-standard" class="level1">
 <h1>Part 3: Hypothesis Test to Compare Data to a Standard</h1>
-<p>The <a href="https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sugar/how-much-sugar-is-too-much">American Heart Association</a> recommends on average no more than ~30g of sugar per day. If we divide this up across three meals a day, the recommended amount for breakfast is 10g. You will use the <code>Sugars</code> attribute from the <em>cereals.csv</em> data to carry out a hypothesis test to answer the following research question:</p>
+<p>The <a href="https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sugar/how-much-sugar-is-too-much">American Heart Association</a> recommends on average no more than ~30g of sugar per day. If we divide this up across three meals a day, the recommended amount for breakfast is 10g. You will use the <code>sugars</code> attribute from the <em>cereals.csv</em> data to carry out a hypothesis test to answer the following research question:</p>
 <blockquote class="blockquote">
 <p><strong>Research Question:</strong> Is the average amount of sugar in cereals different from the recommended amount of 10g (for a single meal)?</p>
 </blockquote>

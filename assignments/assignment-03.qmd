@@ -5,6 +5,7 @@ description: This assignment is worth 15 points. Each question is worth 1 point 
 format:
   html:
    css: "../assets/sticky-notes.css"
+   highlight-style: atom-one
 date: today
 
 ---
@@ -31,16 +32,16 @@ knitr::include_graphics("../img/assign-03.png")
 
 You will use the *cereal.csv* data set to answer questions in this lab. The [data codebook](https://zief0002.github.io/barbieland/assignments/cereal.html) includes a description of how the data were collected and of each of the attributes included in the data. 
 
-Use the code chunks in the *assignment03.qmd* file to load packages, import the data, and carry out any R computations. Submit a PDF document of your responses to the questions in this assignemnt. 
+Use the code chunks in the *assignment03.qmd* file to load packages, import the data, and carry out any R computations. Submit a PDF document of your responses to the questions in this assignment. 
 
 <br />
 
 
 # Part 1: Visualizing, Summarizing, and Describing the Sample Data
 
-1. Create a histogram for the `Sugars` attribute. Be sure to update the labels and add a color of your choice. Include your histogram in your document.
+1. Create a histogram for the `sugars` attribute. Be sure to update the labels and add a color of your choice. Include your histogram in your document.
  
-2. Use the `df_stats()` function to compute a set of numerical summary measures for the `Sugars` attribute. Copy-and-paste (or screenshot) the output from this function into the document you will submit. If you copy-and-paste the output into your document, change the font to a monospaced font (e.g., Courier, Consolata).
+2. Use the `df_stats()` function to compute a set of numerical summary measures for the `sugars` attribute. Copy-and-paste (or screenshot) the output from this function into the document you will submit. If you copy-and-paste the output into your document, change the font to a monospaced font (e.g., Courier, Consolata).
 
 3. **(3pts.)** Write a couple of sentences describing the shape, center, and variation of the distribution using the context of grams of sugar in cereal.
 
@@ -49,8 +50,30 @@ Use the code chunks in the *assignment03.qmd* file to load packages, import the 
 
 # Part 2: Estimating Uncertainty
 
-Suppose a social scientist carried out a bootstrap simulation (use the do() function similar to what we did in Day 5 activity) to estimate the standard error of the sample mean amount of sugar. The resulting histogram and summary statistics of this simulation are shown below: 
+Suppose a social scientist carried out a bootstrap simulation (used the `do()` function similar to how we did in the Day 5 activity) to estimate the standard error of the sample mean amount of sugar. The resulting histogram and summary statistics of this simulation are shown below: 
 
+```{r}
+#| label: fig-bootstrap-dist
+#| fig-cap: "Distribution of 1000 bootstrapped means."
+#| out-width: "70%"
+#| echo: false
+
+knitr::include_graphics("../img/lab-03-hist.png")
+```
+
+
+
+```{r}
+#| eval: false
+#| highlight-style: atom-one
+> df_stats(~result, data = bootstrap_means)
+
+  response    min       Q1  median       Q3     max     mean        sd    n missing
+1   result 9.7328 10.27895 10.4143 10.56595 11.0842 10.42228 0.2216639 1000       0
+```
+
+
+<br />
 
 4. Explain why we expect the mean of this distribution of sample means to be 10.42.
 
@@ -64,7 +87,7 @@ Suppose a social scientist carried out a bootstrap simulation (use the do() func
 
 # Part 3: Hypothesis Test to Compare Data to a Standard
 
-The [American Heart Association](https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sugar/how-much-sugar-is-too-much) recommends on average no more than ~30g of sugar per day. If we divide this up across three meals a day, the recommended amount for breakfast is 10g. You will use the `Sugars` attribute from the *cereals.csv* data to carry out a hypothesis test to answer the following research question:
+The [American Heart Association](https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sugar/how-much-sugar-is-too-much) recommends on average no more than ~30g of sugar per day. If we divide this up across three meals a day, the recommended amount for breakfast is 10g. You will use the `sugars` attribute from the *cereals.csv* data to carry out a hypothesis test to answer the following research question:
 
 > **Research Question:** Is the average amount of sugar in cereals different from the recommended amount of 10g (for a single meal)?
 
