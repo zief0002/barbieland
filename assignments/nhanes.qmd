@@ -23,6 +23,9 @@ The data in [nhanes.csv](https://raw.githubusercontent.com/zief0002/barbieland/m
 - `vigorous_exercise`: Amount of time the participant spends doing moderate- or vigorous-intensity sports, fitness or recreational activities on a typical day. Moderate-intensity sports, fitness or recreational activities were defined as causing small increases in breathing or heart rate and is done for at least 10 minutes continuously. Vigorous-intensity sports, fitness or recreational activities were defined as causeing large increases in breathing or heart rate and is done for at least 10 minutes continuously.
 - `pulse`: Participant's 60 second pulse rate
 - `recent_depression`: Participant's response to the question: "Over the last 2 weeks, have you felt down, depressed, or hopeless?" (`YES`, `NO`)
+- `age`: Participant's age (in years)
+- `martital_status`: Participant's marital status (`Married`, `Divorced`, `Separated`, `Never Married`, `Live with Partner`, or `Widowed`)
+- `us_citizen`:  Participant's response to the question: "Are you a citizen of the United States? [Information about citizenship is being collected by the U.S. Public Health Service to perform health related research. Providing this information is voluntary and is collected under the authority of the Public Health Service Act. There will be no effect on pending immigration or citizenship petitions.]" (`YES`, `NO`)
 
 
 <br />
