@@ -21,6 +21,7 @@ The data in [cereal.csv](https://raw.githubusercontent.com/zief0002/barbieland/m
 - `fat`: Fat (grams per cup)
 - `sodium`: Sodium (mg per cup)
 - `carbs`: Carbohydrates (grams per cup)
+- `fiber`: Dietary Fiber (grams per cup)
 - `sugars`: Sugars (grams per cup)
 - `protein`: Protein (grams per cup)
    

@@ -5,12 +5,13 @@ project:
     - "*.qmd"
     - "data/"
     - "files/"
-    - "!slides/"
     - "handouts/"
     - "scripts/"
     - "!admin/"
-    - "!archive/"
     - "!answer-keys/"
+    - "!archive/"
+    - "!scripts/"
+    - "!slides/"
 
 website:
   title: "EPsy 5261"

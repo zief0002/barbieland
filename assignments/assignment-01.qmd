@@ -28,7 +28,7 @@ knitr::include_graphics("../img/assign-01.png")
 
 ## Instructions
 
-Download the [assignment01.zip]() folder and unzip it. This
+Download the [assignment01.zip](files/assignments/lab-assignment-01.zip) folder and unzip it. This
 
 You will use the *films.csv* data set to answer questions in this lab. The [data codebook](https://zief0002.github.io/barbieland/assignments/films.html) includes a description of how the data were collected and of each of the attributes included in the data. 
 
@@ -45,9 +45,9 @@ Submit a PDF document of your responses to the following questions.
 
 2.  What does a row represent in this data set? 
 
-3. What type of variable is `duration` (categorical or quantitative)? How can you tell?
+3. What type of attribute is `duration` (categorical or quantitative)? How can you tell?
 
-4. What type of variable is `genre` (categorical or quantitative)? How can you tell?
+4. What type of attribute is `genre` (categorical or quantitative)? How can you tell?
 
 5. Using the `df_stats()` function, create a table of the `genre` attribute and have it display proportions. Copy-and-paste (or screenshot) the output from this function into the document you will submit. If you copy-and-paste the output into your document, change the font to a monospaced font (e.g., Courier, Consolata).
 

@@ -417,7 +417,7 @@
     "href": "assignments/assignment-03.html#instructions",
     "title": "Assignment 03",
     "section": "Instructions",
-    "text": "Instructions\nYou will use the cereal.csv data set to answer questions in this lab. The data codebook includes a description of how the data were collected and of each of the attributes included in the data.\nUse the code chunks in the assignment03.qmd file to load packages, import the data, and carry out any R computations. Submit a PDF document of your responses to the questions in this assignment."
+    "text": "Instructions\nYou will use the sandwiches.csv data set to answer questions in this lab. The data codebook includes a description of how the data were collected and of each of the attributes included in the data.\nUse the code chunks in the assignment03.qmd file to load packages, import the data, and carry out any R computations. Submit a PDF document of your responses to the questions in this assignment."
   },
   {
     "objectID": "assignments/assignment-03.html#how-do-i-submit-the-assignment",
@@ -438,6 +438,13 @@
     "href": "assignments/cereal.html",
     "title": "cereal.csv",
     "section": "",
-    "text": "The data in cereal.csv includes nutrition information collected from \\(n=30\\) breakfast cereals. The data, which were provided by Lock, Lock, Lock Morgan, Lock, & Lock (2020), were obtained from http://nutritionresource.com/. The attributes are:\n\nname: Brand name of cereal\ncompany: Manufacturer (G=General Mills, K=Kellog’s or Q=Quaker)\nserving: Serving size (in cups)\ncalories: Calories (per cup)\nfat: Fat (grams per cup)\nsodium: Sodium (mg per cup)\ncarbs: Carbohydrates (grams per cup)\nsugars: Sugars (grams per cup)\nprotein: Protein (grams per cup)\n\n\n\nPreview\n\n\nCode\n# Import Data\ncereal = readr::read_csv(file = \"https://raw.githubusercontent.com/zief0002/barbieland/main/data/cereal.csv\")\n\n# View data\ncereal\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\nReferences\n\nLock, R., Lock, P. F., Lock Morgan, K., Lock, E. F., & Lock, D. F. (2020). Statistics: Unlocking the power of data (3rd ed.). Wiley."
+    "text": "The data in cereal.csv includes nutrition information collected from \\(n=30\\) breakfast cereals. The data, which were provided by Lock, Lock, Lock Morgan, Lock, & Lock (2020), were obtained from http://nutritionresource.com/. The attributes are:\n\nname: Brand name of cereal\ncompany: Manufacturer (G=General Mills, K=Kellog’s or Q=Quaker)\nserving: Serving size (in cups)\ncalories: Calories (per cup)\nfat: Fat (grams per cup)\nsodium: Sodium (mg per cup)\ncarbs: Carbohydrates (grams per cup)\nfiber: Dietary Fiber (grams per cup)\nsugars: Sugars (grams per cup)\nprotein: Protein (grams per cup)\n\n\n\nPreview\n\n\nCode\n# Import Data\ncereal = readr::read_csv(file = \"https://raw.githubusercontent.com/zief0002/barbieland/main/data/cereal.csv\")\n\n# View data\ncereal\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\nReferences\n\nLock, R., Lock, P. F., Lock Morgan, K., Lock, E. F., & Lock, D. F. (2020). Statistics: Unlocking the power of data (3rd ed.). Wiley."
+  },
+  {
+    "objectID": "assignments/sandwiches.html",
+    "href": "assignments/sandwiches.html",
+    "title": "sandwiches.csv",
+    "section": "",
+    "text": "The data in sandwiches.csv includes nutrition information for \\(n=40\\) sandwiches. The 40 sandwiches were randomly sampled from all sandwiches available from the Erbert & Gerbert’s, Firehouse, Jimmy Johns, Potbelly, Subway, and Quiznos menus (as of August 28, 2023). All nutrition information was computed for a six inch sandwich. The attributes are:\n\nrestaurant: Name of the restaurant\nsandwich: Name of the sandwich\ncalories: Calories\nfat: Fat (g)\nsat_fat: Saturated fat (g)\ntrans_fat: Trans fat (g)\nchol: Cholesterol (mg)\nsodium: Sodium (mg)\ncarbs: Carbohydrates (g)\nfiber: Dietary Fiber (g)\nsugars: Sugars (g)\nprotein: Protein (g)\n\n\n\nPreview\n\n\nCode\n# Import Data\nsandwiches = readr::read_csv(file = \"https://raw.githubusercontent.com/zief0002/barbieland/main/data/sandwiches.csv\")\n\n# View data\nsandwiches"
   }
 ]

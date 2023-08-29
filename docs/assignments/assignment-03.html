@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-08-23">
+<meta name="dcterms.date" content="2023-08-29">
 <meta name="description" content="This assignment is worth 15 points. Each question is worth 1 point unless otherwise noted.    Copyright EPSY 5261, 2023">
 
 <title>EPsy 5261 - Assignment 03</title>
@@ -194,7 +194,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 23, 2023</p>
+      <p class="date">August 29, 2023</p>
     </div>
   </div>
   
@@ -204,8 +204,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<!-- - [[CSV]](https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/broadband.csv) -->
-<!-- - [[Data Codebook]](https://zief0002.github.io/rustic-penguin/codebooks/broadband.html) -->
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -217,16 +215,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <section id="instructions" class="level2">
 <h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
-<p>You will use the <em>cereal.csv</em> data set to answer questions in this lab. The <a href="https://zief0002.github.io/barbieland/assignments/cereal.html">data codebook</a> includes a description of how the data were collected and of each of the attributes included in the data.</p>
+<p>You will use the <em>sandwiches.csv</em> data set to answer questions in this lab. The <a href="https://zief0002.github.io/barbieland/assignments/sandwiches.html">data codebook</a> includes a description of how the data were collected and of each of the attributes included in the data.</p>
 <p>Use the code chunks in the <em>assignment03.qmd</em> file to load packages, import the data, and carry out any R computations. Submit a PDF document of your responses to the questions in this assignment.</p>
 <p><br></p>
 </section>
 <section id="part-1-visualizing-summarizing-and-describing-the-sample-data" class="level1">
 <h1>Part 1: Visualizing, Summarizing, and Describing the Sample Data</h1>
 <ol type="1">
-<li><p>Create a histogram for the <code>sugars</code> attribute. Be sure to update the labels and add a color of your choice. Include your histogram in your document.</p></li>
-<li><p>Use the <code>df_stats()</code> function to compute a set of numerical summary measures for the <code>sugars</code> attribute. Copy-and-paste (or screenshot) the output from this function into the document you will submit. If you copy-and-paste the output into your document, change the font to a monospaced font (e.g., Courier, Consolata).</p></li>
-<li><p><strong>(3pts.)</strong> Write a couple of sentences describing the shape, center, and variation of the distribution using the context of grams of sugar in cereal.</p></li>
+<li><p>Create a histogram for the <code>sugar</code> attribute. Be sure to update the labels and add a color of your choice. Include your histogram in your document.</p></li>
+<li><p>Use the <code>df_stats()</code> function to compute a set of numerical summary measures for the <code>sugar</code> attribute. Copy-and-paste (or screenshot) the output from this function into the document you will submit. If you copy-and-paste the output into your document, change the font to a monospaced font (e.g., Courier, Consolata).</p></li>
+<li><p><strong>(3pts.)</strong> Write a couple of sentences describing the shape, center, and variation of the distribution using the context of the sugar content in sub shop sandwiches.</p></li>
 </ol>
 <p><br></p>
 </section>
@@ -246,12 +244,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell" data-highlight-style="atom-one">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">df_stats</span>(<span class="sc">~</span>result, <span class="at">data =</span> bootstrap_means)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  response    min       Q1  median       Q3     max     mean        sd    n missing</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span>   result <span class="fl">9.7328</span> <span class="fl">10.27895</span> <span class="fl">10.4143</span> <span class="fl">10.56595</span> <span class="fl">11.0842</span> <span class="fl">10.42228</span> <span class="fl">0.2216639</span> <span class="dv">1000</span>       <span class="dv">0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  response   min       Q1  median    Q3   max     mean        sd    n missing</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span>   result <span class="fl">6.592</span> <span class="fl">7.260375</span> <span class="fl">7.49725</span> <span class="fl">7.735</span> <span class="fl">8.775</span> <span class="fl">7.502887</span> <span class="fl">0.3305093</span> <span class="dv">1000</span>       <span class="dv">0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br></p>
 <ol start="4" type="1">
-<li><p>Explain why we expect the mean of this distribution of sample means to be 10.42.</p></li>
+<li><p>Explain why we expect the mean of this distribution of sample means to be 7.50.</p></li>
 <li><p>What is the estimated standard error of the means?</p></li>
 <li><p>Explain what the standard error measures using the context.</p></li>
 </ol>
@@ -259,9 +257,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="part-3-hypothesis-test-to-compare-data-to-a-standard" class="level1">
 <h1>Part 3: Hypothesis Test to Compare Data to a Standard</h1>
-<p>The <a href="https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sugar/how-much-sugar-is-too-much">American Heart Association</a> recommends on average no more than ~30g of sugar per day. If we divide this up across three meals a day, the recommended amount for breakfast is 10g. You will use the <code>sugars</code> attribute from the <em>cereals.csv</em> data to carry out a hypothesis test to answer the following research question:</p>
+<p>The <a href="https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sugar/how-much-sugar-is-too-much">American Heart Association</a> recommends on average no more than ~30g of sugar per day. If we divide this up across three meals a day, the recommended amount for breakfast is 10g. You will use the <code>sugar</code> attribute from the <em>sandwiches.csv</em> data to carry out a hypothesis test to answer the following research question:</p>
 <blockquote class="blockquote">
-<p><strong>Research Question:</strong> Is the average amount of sugar in cereals different from the recommended amount of 10g (for a single meal)?</p>
+<p><strong>Research Question:</strong> Is the average amount of sugar in sub shop sandwiches different from the recommended amount of 10g (for a single meal)?</p>
 </blockquote>
 <ol start="7" type="1">
 <li><p>Given the research question, please write out the appropriate null and alternative hypotheses that will be tested in words.</p></li>

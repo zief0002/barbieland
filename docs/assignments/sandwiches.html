@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-08-28">
-<meta name="description" content="This assignment is worth 15 points. Each question is worth 1 point unless otherwise noted.    Copyright EPSY 5261, 2023">
 
-<title>EPsy 5261 - Assignment 01</title>
+<title>EPsy 5261 - sandwiches.csv</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -61,8 +93,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+
+<link href="../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<script src="../site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <script src="https://kit.fontawesome.com/e5da75ca36.js" crossorigin="anonymous"></script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../assets/sticky-notes.css">
 </head>
@@ -128,11 +165,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#instructions" id="toc-instructions" class="nav-link active" data-scroll-target="#instructions">Instructions</a></li>
-  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a>
-  <ul class="collapse">
-  <li><a href="#how-do-i-submit-the-assignment" id="toc-how-do-i-submit-the-assignment" class="nav-link" data-scroll-target="#how-do-i-submit-the-assignment">How do I submit the assignment?</a></li>
-  </ul></li>
+  <li><a href="#preview" id="toc-preview" class="nav-link active" data-scroll-target="#preview">Preview</a></li>
   </ul>
 </nav>
     </div>
@@ -141,26 +174,15 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Assignment 01</h1>
-<p class="subtitle lead">INTRODUCTION TO CODING AND USING R</p>
+<h1 class="title">sandwiches.csv</h1>
+<p class="subtitle lead">DATA CODEBOOK</p>
 </div>
 
-<div>
-  <div class="description">
-    This assignment is worth 15 points. Each question is worth 1 point unless otherwise noted. <br><br> <em>Copyright EPSY 5261, 2023</em>
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">August 28, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -168,58 +190,46 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<!-- - [[CSV]](https://raw.githubusercontent.com/zief0002/rustic-penguin/main/data/broadband.csv) -->
-<!-- - [[Data Codebook]](https://zief0002.github.io/rustic-penguin/codebooks/broadband.html) -->
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../img/assign-01.png" class="img-fluid figure-img" style="width:60.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<section id="instructions" class="level2">
-<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
-<p>Download the <a href="files/assignments/lab-assignment-01.zip">assignment01.zip</a> folder and unzip it. This</p>
-<p>You will use the <em>films.csv</em> data set to answer questions in this lab. The <a href="https://zief0002.github.io/barbieland/assignments/films.html">data codebook</a> includes a description of how the data were collected and of each of the attributes included in the data.</p>
-<p>Use the code chunks in the <em>assignment01.qmd</em> file to load packages and import the data. (Reference the in-class activity from Day 3 if you need to remember how to do this.) You can also do any computations needed for the assignment in this QMD document.</p>
-<p><br></p>
-</section>
-<section id="questions" class="level1">
-<h1>Questions</h1>
-<p>Submit a PDF document of your responses to the following questions.</p>
-<ol type="1">
-<li><p>Print the first 10 rows of the dataset to make sure it was imported correctly. Copy-and-paste (or screenshot) the output from this function into the document you will submit. If you copy-and-paste the output into your document, change the font to a monospaced font (e.g., Courier, Consolata).</p></li>
-<li><p>What does a row represent in this data set?</p></li>
-<li><p>What type of attribute is <code>duration</code> (categorical or quantitative)? How can you tell?</p></li>
-<li><p>What type of attribute is <code>genre</code> (categorical or quantitative)? How can you tell?</p></li>
-<li><p>Using the <code>df_stats()</code> function, create a table of the <code>genre</code> attribute and have it display proportions. Copy-and-paste (or screenshot) the output from this function into the document you will submit. If you copy-and-paste the output into your document, change the font to a monospaced font (e.g., Courier, Consolata).</p></li>
-<li><p>Based on the output from Question 5, what proportion of movies in this dataset are action movies?</p></li>
-<li><p>Using the <code>df_stats()</code> function, compute the summary statistics for the <code>duration</code> attribute. Copy-and-paste (or screenshot) the output from this function into the document you will submit. If you copy-and-paste the output into your document, change the font to a monospaced font (e.g., Courier, Consolata).</p></li>
-<li><p>What is the mean movie duration? Write a single sentence interpreting this value in the context of the duration of the movie. <strong>(2pts.)</strong></p></li>
-<li><p>Create a histogram of the movie durations. <strong>(4pts.)</strong></p>
+<p>The data in <a href="https://raw.githubusercontent.com/zief0002/barbieland/main/data/sandwiches.csv">sandwiches.csv</a> includes nutrition information for <span class="math inline">\(n=40\)</span> sandwiches. The 40 sandwiches were randomly sampled from all sandwiches available from the Erbert &amp; Gerbert’s, Firehouse, Jimmy Johns, Potbelly, Subway, and Quiznos menus (as of August 28, 2023). All nutrition information was computed for a six inch sandwich. The attributes are:</p>
 <ul>
-<li>Update the <em>x</em>- and <em>y</em>-axis labels.</li>
-<li>Color the bars and bar borders of the histogram.</li>
-<li>Insert a picture of the plot into your word-processed document. Re-size it so that it does not take up more room than necessary. (But, make sure the labels are still readable.)</li>
-</ul></li>
-<li><p>Where is “most” of the data in your histogram? (Note: You can give your best guess here, but we will formalize this later in the semester) Interpret this in the context of the duration of the movie. <strong>(2pts.)</strong></p></li>
-</ol>
-<p><br></p>
-<section id="how-do-i-submit-the-assignment" class="level2">
-<h2 class="anchored" data-anchor-id="how-do-i-submit-the-assignment">How do I submit the assignment?</h2>
-<p>Create a PDF of your responses and submit the PDF via email to both the instructor and TA. Also cc any group members. Before you submit the assignment check that:</p>
-<ul class="task-list">
-<li><input type="checkbox">All group members’ names are on the assignment.</li>
-<li><input type="checkbox">All figures are re-sized to not take up more page space than is necessary to read them.</li>
-<li><input type="checkbox">No R syntax is included unless the question specifically asked for the syntax to be included. If there is R syntax included, be sure that it is typeset in a monospaced font (e.g., Courier, Inconsolata).</li>
-<li><input type="checkbox">Do not submit the QMD file you used unless the directions specifically ask you to submit it.</li>
+<li><code>restaurant</code>: Name of the restaurant</li>
+<li><code>sandwich</code>: Name of the sandwich</li>
+<li><code>calories</code>: Calories</li>
+<li><code>fat</code>: Fat (g)</li>
+<li><code>sat_fat</code>: Saturated fat (g)</li>
+<li><code>trans_fat</code>: Trans fat (g)</li>
+<li><code>chol</code>: Cholesterol (mg)</li>
+<li><code>sodium</code>: Sodium (mg)</li>
+<li><code>carbs</code>: Carbohydrates (g)</li>
+<li><code>fiber</code>: Dietary Fiber (g)</li>
+<li><code>sugars</code>: Sugars (g)</li>
+<li><code>protein</code>: Protein (g)</li>
 </ul>
 <p><br></p>
+<section id="preview" class="level3">
+<h3 class="anchored" data-anchor-id="preview">Preview</h3>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import Data</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>sandwiches <span class="ot">=</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="at">file =</span> <span class="st">"https://raw.githubusercontent.com/zief0002/barbieland/main/data/sandwiches.csv"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># View data</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>sandwiches</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+
+<div data-pagedtable="false">
+  <script data-pagedtable-source="" type="application/json">
+{"columns":[{"label":["...1"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["restaurant"],"name":[2],"type":["chr"],"align":["left"]},{"label":["sandwich"],"name":[3],"type":["chr"],"align":["left"]},{"label":["calories"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["fat"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["sat_fat"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["trans_fat"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["chol"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["sodium"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["carbs"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["fiber"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["sugar"],"name":[12],"type":["dbl"],"align":["right"]},{"label":["protein"],"name":[13],"type":["dbl"],"align":["right"]}],"data":[{"1":"1","2":"Subway","3":"Roast beef Wrap","4":"500.0","5":"14.00","6":"3.000","7":"0.0","8":"75.00","9":"1440.0","10":"58.00","11":"3.00","12":"7.00","13":"38.00"},{"1":"2","2":"Erbert & Gerbert's","3":"Tappy (Honey Wheat Bread)","4":"778.0","5":"41.00","6":"11.000","7":"0.0","8":"53.00","9":"1574.0","10":"71.00","11":"5.00","12":"6.00","13":"30.00"},{"1":"3","2":"Subway","3":"Italian B.M.T.","4":"240.0","5":"15.00","6":"5.000","7":"0.0","8":"50.00","9":"880.0","10":"12.00","11":"4.00","12":"5.00","13":"14.00"},{"1":"4","2":"Potbelly","3":"Pizza Melt","4":"750.0","5":"35.00","6":"14.000","7":"0.0","8":"90.00","9":"2200.0","10":"70.00","11":"4.00","12":"7.00","13":"39.00"},{"1":"5","2":"Subway","3":"Veggie Delite","4":"50.0","5":"1.00","6":"0.000","7":"0.0","8":"0.00","9":"75.0","10":"9.00","11":"4.00","12":"5.00","13":"3.00"},{"1":"6","2":"Erbert & Gerbert's","3":"Tappy (French Bread)","4":"758.0","5":"40.00","6":"11.000","7":"0.0","8":"53.00","9":"1544.0","10":"71.00","11":"3.00","12":"4.00","13":"31.00"},{"1":"7","2":"Potbelly","3":"Ham, Mushroom, Egg & Swiss","4":"720.0","5":"27.00","6":"12.000","7":"0.0","8":"340.00","9":"2210.0","10":"67.00","11":"3.00","12":"6.00","13":"51.00"},{"1":"8","2":"Jimmy Johns","3":"The Veggie (#6)","4":"502.5","5":"29.25","6":"9.750","7":"0.0","8":"48.75","9":"810.0","10":"48.00","11":"4.50","12":"1.50","13":"25.50"},{"1":"9","2":"Erbert & Gerbert's","3":"327","4":"206.0","5":"10.00","6":"0.000","7":"117.0","8":"1537.00","9":"63.0","10":"5.00","11":"23.00","12":"43.00","13":"10.00"},{"1":"10","2":"Jimmy Johns","3":"Country Club (#11)","4":"585.0","5":"23.25","6":"6.000","7":"0.0","8":"75.00","9":"1485.0","10":"48.75","11":"3.75","12":"2.25","13":"38.25"},{"1":"11","2":"Subway","3":"Meatball  Marinara Wrap","4":"780.0","5":"38.00","6":"14.000","7":"2.0","8":"75.00","9":"2010.0","10":"76.00","11":"7.00","12":"11.00","13":"34.00"},{"1":"12","2":"Subway","3":"Buffalo Chicken with Grilled Chicken","4":"380.0","5":"12.00","6":"3.000","7":"0.0","8":"55.00","9":"1380.0","10":"42.00","11":"3.00","12":"6.00","13":"25.00"},{"1":"13","2":"Subway","3":"Steak (Includes American Cheese)","4":"210.0","5":"9.00","6":"4.000","7":"0.0","8":"65.00","9":"740.0","10":"12.00","11":"4.00","12":"6.00","13":"22.00"},{"1":"14","2":"Quiznos","3":"Honey Bourbon Wheat Wrap","4":"470.0","5":"12.00","6":"3.500","7":"0.2","8":"45.00","9":"1100.0","10":"66.00","11":"7.00","12":"15.00","13":"25.00"},{"1":"15","2":"Quiznos","3":"Meatball Sub","4":"530.0","5":"24.00","6":"10.000","7":"0.5","8":"55.00","9":"1280.0","10":"54.00","11":"4.00","12":"6.00","13":"26.00"},{"1":"16","2":"Firehouse","3":"Hero","4":"600.0","5":"28.50","6":"6.000","7":"NA","8":"67.50","9":"1755.0","10":"47.25","11":"3.00","12":"11.25","13":"36.00"},{"1":"17","2":"Quiznos","3":"Chipotle Steak and Cheddar Wheat Wrap","4":"680.0","5":"37.00","6":"10.000","7":"0.5","8":"65.00","9":"1550.0","10":"57.00","11":"7.00","12":"4.00","13":"29.00"},{"1":"18","2":"Subway","3":"Turkey Cali Club with Smashed Avocado (#12)","4":"600.0","5":"34.00","6":"10.000","7":"0.0","8":"70.00","9":"1310.0","10":"43.00","11":"6.00","12":"7.00","13":"33.00"},{"1":"19","2":"Potbelly","3":"Roast Beef & Provolone","4":"610.0","5":"21.00","6":"9.000","7":"0.0","8":"80.00","9":"1300.0","10":"63.00","11":"2.00","12":"4.00","13":"42.00"},{"1":"20","2":"Jimmy Johns","3":"Slim 4","4":"315.0","5":"2.25","6":"0.000","7":"0.0","8":"22.50","9":"697.5","10":"44.25","11":"3.00","12":"0.00","13":"22.50"},{"1":"21","2":"Jimmy Johns","3":"Slim 1","4":"405.0","5":"9.75","6":"4.500","7":"0.0","8":"37.50","9":"1207.5","10":"51.75","11":"3.00","12":"0.75","13":"24.75"},{"1":"22","2":"Jimmy Johns","3":"Bootlegger Club (#14)","4":"510.0","5":"17.25","6":"2.625","7":"0.0","8":"67.50","9":"1177.5","10":"46.50","11":"3.75","12":"1.50","13":"35.25"},{"1":"23","2":"Subway","3":"Veggie Patty","4":"390.0","5":"11.00","6":"1.000","7":"0.0","8":"0.00","9":"690.0","10":"56.00","11":"13.00","12":"8.00","13":"16.00"},{"1":"24","2":"Erbert & Gerbert's","3":"Neuron (French Bread)","4":"654.0","5":"23.00","6":"10.000","7":"1.0","8":"70.00","9":"2034.0","10":"82.00","11":"5.00","12":"22.00","13":"36.00"},{"1":"25","2":"Subway","3":"Italian B.M.T.","4":"400.0","5":"16.00","6":"6.000","7":"0.0","8":"50.00","9":"1180.0","10":"43.00","11":"3.00","12":"6.00","13":"19.00"},{"1":"26","2":"Firehouse","3":"Engineer","4":"517.5","5":"26.25","6":"6.000","7":"NA","8":"48.75","9":"1522.5","10":"44.25","11":"4.50","12":"6.75","13":"27.75"},{"1":"27","2":"Erbert & Gerbert's","3":"Vesuvius (Honey Wheat Bread)","4":"752.0","5":"20.00","6":"11.000","7":"0.0","8":"117.00","9":"1737.0","10":"89.00","11":"5.00","12":"24.00","13":"50.00"},{"1":"28","2":"Erbert & Gerbert's","3":"Saturn (Honey Wheat Bread)","4":"948.0","5":"51.00","6":"18.000","7":"0.0","8":"128.00","9":"2519.0","10":"73.00","11":"6.00","12":"8.00","13":"43.00"},{"1":"29","2":"Quiznos","3":"Chipotle Steak and Cheddar Sub","4":"580.0","5":"30.00","6":"8.000","7":"0.5","8":"70.00","9":"1450.0","10":"51.00","11":"4.00","12":"5.00","13":"28.00"},{"1":"30","2":"Subway","3":"The Philly (#1)","4":"500.0","5":"25.00","6":"9.000","7":"1.0","8":"85.00","9":"1310.0","10":"41.00","11":"2.00","12":"5.00","13":"28.00"},{"1":"31","2":"Erbert & Gerbert's","3":"Girf (Gluten Free Bread)","4":"759.0","5":"43.00","6":"10.000","7":"0.0","8":"93.00","9":"1986.0","10":"62.00","11":"8.00","12":"7.00","13":"33.00"},{"1":"32","2":"Potbelly","3":"Wrecking Ball","4":"840.0","5":"41.00","6":"16.000","7":"0.0","8":"125.00","9":"2460.0","10":"72.00","11":"7.00","12":"7.00","13":"50.00"},{"1":"33","2":"Quiznos","3":"Signature Tuna Wheat Wrap","4":"630.0","5":"32.00","6":"9.000","7":"0.5","8":"25.00","9":"1370.0","10":"58.00","11":"7.00","12":"6.00","13":"28.00"},{"1":"34","2":"Quiznos","3":"Beef & Swiss Melt Wheat Wrap","4":"660.0","5":"34.00","6":"9.000","7":"0.5","8":"60.00","9":"1390.0","10":"57.00","11":"6.00","12":"5.00","13":"30.00"},{"1":"35","2":"Subway","3":"The Beast (#30)","4":"730.0","5":"44.00","6":"14.000","7":"1.0","8":"115.00","9":"2080.0","10":"45.00","11":"3.00","12":"7.00","13":"40.00"},{"1":"36","2":"Subway","3":"Oven Roasted Turkey &  Ham Wrap","4":"440.0","5":"11.00","6":"2.000","7":"0.0","8":"50.00","9":"1560.0","10":"56.00","11":"3.00","12":"5.00","13":"30.00"},{"1":"37","2":"Subway","3":"Black Forest Ham Wrap","4":"440.0","5":"11.00","6":"2.000","7":"0.0","8":"55.00","9":"1570.0","10":"58.00","11":"3.00","12":"6.00","13":"28.00"},{"1":"38","2":"Erbert & Gerbert's","3":"Northern Cheesesteak (French Bread)","4":"670.0","5":"32.00","6":"8.000","7":"0.0","8":"61.00","9":"1435.0","10":"66.00","11":"3.00","12":"4.00","13":"35.00"},{"1":"39","2":"Potbelly","3":"Steakhouse Beef","4":"790.0","5":"37.00","6":"15.000","7":"0.0","8":"110.00","9":"1760.0","10":"64.00","11":"2.00","12":"4.00","13":"49.00"},{"1":"40","2":"Subway","3":"Buffalo Chicken Wrap (with Grilled Chicken)","4":"560.0","5":"19.00","6":"4.000","7":"0.0","8":"110.00","9":"1800.0","10":"56.00","11":"3.00","12":"5.00","13":"42.00"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+</div>
+</div>
+<p><br></p>
+<!-- ### References -->
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
