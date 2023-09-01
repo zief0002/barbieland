@@ -296,10 +296,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 19--21](https://zief0002.github.io/epsy-5261/07-01-confidence-intervals.html)
 </td>
 <td>
-  [Introduction to Confidence Intervals](files/slides/day16.pdf)
+Introduction to Confidence Intervals
+  <!-- [Introduction to Confidence Intervals](files/slides/day16.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day16.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day16.zip) -->
 </td>
 </tr>
 
@@ -310,10 +311,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Oct. 31</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  [Confidence Intervals for a Single Mean](files/slides/day17.pdf)
+Confidence Intervals for a Single Mean
+  <!-- [Confidence Intervals for a Single Mean](files/slides/day17.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day17.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day17.zip) -->
 </td>
 </tr>
 
@@ -324,10 +326,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Nov. 02</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  [Confidence Intervals for a Single Proportion](files/slides/day18.pdf)
+  Confidence Intervals for a Single Proportion
+  <!-- [Confidence Intervals for a Single Proportion](files/slides/day18.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day18.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day18.zip) -->
 </td>
 </tr>
 
@@ -338,10 +341,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Nov. 07</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  [Confidence Intervals for Comparing Two Means](files/slides/day19.pdf)
+Confidence Intervals for Comparing Two Means
+  <!-- [Confidence Intervals for Comparing Two Means](files/slides/day19.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day19.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day19.zip) -->
 </td>
 </tr>
 
@@ -352,10 +356,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Nov. 09</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  [Confidence Intervals for Comparing Two Proportions](files/slides/day20.pdf)
+Confidence Intervals for Comparing Two Proportions
+  <!-- [Confidence Intervals for Comparing Two Proportions](files/slides/day20.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day20.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day20.zip) -->
 </td>
 </tr>
 
@@ -366,10 +371,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Nov. 14</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  [More Confidence Intervals](files/slides/day21.pdf)
+More Confidence Intervals
+  <!-- [More Confidence Intervals](files/slides/day21.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day21.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day21.zip) -->
 </td>
 </tr>
 
@@ -382,10 +388,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 22--23](https://zief0002.github.io/epsy-5261/07-04-standardized-effects-means.html)
 </td>
 <td>
-  [Standardized Effect Size](files/slides/day22.pdf)
+  Standardized Effect Size
+  <!-- [Standardized Effect Size](files/slides/day22.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day22.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day22.zip) -->
 </td>
 </tr>
 
@@ -425,10 +432,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
   TBD
 </td>
 <td>
-  [Introduction to Correlation](files/slides/day25.pdf)
+Introduction to Correlation
+  <!-- [Introduction to Correlation](files/slides/day25.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day25.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day25.zip) -->
 </td>
 </tr>
 
@@ -441,10 +449,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
   TBD
 </td>
 <td>
-  [Introduction to Simple Linear Regression](files/slides/day26.pdf)
+Introduction to Simple Linear Regression
+  <!-- [Introduction to Simple Linear Regression](files/slides/day26.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day26.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day26.zip) -->
 </td>
 </tr>
 
@@ -457,10 +466,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
   TBD
 </td>
 <td>
-  [Simple Linear Regression (Continued)](files/slides/day27.pdf)
+Simple Linear Regression (Continued)
+  <!-- [Simple Linear Regression (Continued)](files/slides/day27.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day27.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day27.zip) -->
 </td>
 </tr>
 
@@ -473,10 +483,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
   TBD
 </td>
 <td>
-  [Simple Linear Regression (Continued)](files/slides/day28.pdf)
+Simple Linear Regression (Continued)
+  <!-- [Simple Linear Regression (Continued)](files/slides/day28.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day28.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day28.zip) -->
 </td>
 </tr>
 
@@ -489,10 +500,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
   TBD
 </td>
 <td>
-  [Review Day](files/slides/day29.pdf)
+Review Day
+  <!-- [Review Day](files/slides/day29.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day29.zip)
+  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day29.zip) -->
 </td>
 </tr>
 
