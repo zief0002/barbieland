@@ -11,7 +11,7 @@ project:
     - "!answer-keys/"
     - "!archive/"
     - "!scripts/"
-    - "!slides/"
+    - "!slides-keynote/"
 
 website:
   title: "EPsy 5261"

@@ -59,7 +59,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
   Introduction to Coding
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day02.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day02.zip)
 </td>
 </tr>
 
@@ -72,10 +72,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 1--2](https://zief0002.github.io/epsy-5261/01-01-r-and-rstudio-installation.html)
 </td>
 <td>
-  [Introduction to R and RStudio](files/slides/day03.pdf)
+  [Introduction to R and RStudio](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-03.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day03.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day03.zip)
 </td>
 </tr>
 
@@ -94,10 +94,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 4--6](https://zief0002.github.io/epsy-5261/02-01-data-structure-and-attributes.html)
 </td>
 <td>
-  [Visualization and Numerical Summaries](files/slides/day04.pdf)
+  [Visualization and Numerical Summaries](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-04.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day04.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day04.zip)
 </td>
 </tr>
 
@@ -116,10 +116,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Sept. 19</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  [Visualization and Numerical Summaries](files/slides/day05.pdf)
+  [Visualization and Numerical Summaries](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-05.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder">](files/activities/day05.zip)
+  [<span class="fa-solid fa-folder">](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day05.zip)
 </td>
 </tr>
 
@@ -139,10 +139,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 7--8](https://zief0002.github.io/epsy-5261/04-01-case-study-teen-sleep.html)
 </td>
 <td>
-  [Estimating Uncertainty](files/slides/day06.pdf)
+  [Estimating Uncertainty](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-06.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day06.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day06.zip)
 </td>
 </tr>
 
@@ -153,10 +153,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Sept. 26</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  [Introduction to Hypothesis Testing](files/slides/day07.pdf)
+  [Introduction to Hypothesis Testing](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-07.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day07.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day07.zip)
 </td>
 </tr>
 
@@ -167,10 +167,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Sept. 28</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  [Simulation-Based Hypothesis Testing](files/slides/day08.pdf)
+  [Simulation-Based Hypothesis Testing](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-08.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day08.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day08.zip)
 </td>
 </tr>
 
@@ -183,10 +183,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 9--11](https://zief0002.github.io/epsy-5261/04-03-one-sample-test.html)
 </td>
 <td>
-  [Hypothesis Testing with the *t*-distribution](files/slides/day09.pdf)
+  [Hypothesis Testing with the *t*-distribution](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-09.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day09.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day09.zip)
 </td>
 </tr>
 
@@ -199,10 +199,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 12](https://zief0002.github.io/epsy-5261/04-06-one-sample-test-proportions.html)
 </td>
 <td>
-  [Hypothesis Testing for Proportions](files/slides/day10.pdf)
+  [Hypothesis Testing for Proportions](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-10.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder">](files/activities/day10.zip)
+  [<span class="fa-solid fa-folder">](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day10.zip)
 </td>
 </tr>
 
@@ -215,10 +215,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 13--14](https://zief0002.github.io/epsy-5261/05-01-two-sample-t-test.html)
 </td>
 <td>
-  [Hypothesis Testing for Comparing Two Means](files/slides/day11.pdf)
+  [Hypothesis Testing for Comparing Two Means](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-11.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day11.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day11.zip)
 </td>
 </tr>
 
@@ -231,10 +231,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 15](https://zief0002.github.io/epsy-5261/05-03-two-sample-test-proportions.html)
 </td>
 <td>
-  [Hypothesis Testing for Comparing Two Proportions](files/slides/day12.pdf)
+  [Hypothesis Testing for Comparing Two Proportions](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-12.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day12.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day12.zip)
 </td>
 </tr>
 
@@ -247,10 +247,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 17](https://zief0002.github.io/epsy-5261/06-01-generalization.html)
 </td>
 <td>
-  [Study Design: Generalizability](files/slides/day13.pdf)
+  [Study Design: Generalizability](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-13.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day13.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day13.zip)
 </td>
 </tr>
 
@@ -263,10 +263,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 18](https://zief0002.github.io/epsy-5261/06-02-cause-and-effect.html)
 </td>
 <td>
-  [Study Design: Causal Claims](files/slides/day14.pdf)
+  [Study Design: Causal Claims](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-14.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](files/activities/day14.zip)
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day14.zip)
 </td>
 </tr>
 
