@@ -56,7 +56,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Sept. 07</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  Introduction to Coding
+  [Introduction to Coding](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-02.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day02.zip)
