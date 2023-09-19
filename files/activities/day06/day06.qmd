@@ -1,0 +1,155 @@
+---
+title: "Day 06"
+subtitle: "Estimating Uncertainty"
+format: html
+editor: visual
+---
+
+## **Estimating Uncertainty**
+
+In this activity, you will explore uncertainty and how to quantify it. For our in class mini activity we got a sample of 5 students to help us get an estimate for the mean pulse rate. For this activity we will continue to consider pulse rate, but we will use the NHANES data again. This time we are interested in the average pulse for an adult in the United States.
+
+LOAD THE LIBRARIES
+
+First we must load the packages we need.
+
+Insert a code chunk and write code that will load the two packages we have been using (`{tidyverse}` and `{ggformula}`).
+
+READ IN THE DATA
+
+Insert a code chunk below to import the dataset.
+
+GRAPH OF PULSE
+
+The attribute we are interested in is called `pulse`*.* Use the `gf_histogram()` function to create a histogram of this attribute.
+
+*Hint 1: This function needs two arguments: one for the attribute of interest and one to tell R Studio which dataset that attribute is a part of.*
+
+*Hint 2: Look back at the last class activity if you can't remember what arguments to put in the function.*
+
+```{r}
+gf_histogram()
+```
+
+CALCULATE NUMERICAL SUMMARY STATISTICS
+
+Use the `df_stats()` function to get the summary statistics for the pulse attribute
+
+YOUR TURN
+
+1.  Describe the distribution (be sure to mention shape, center, and variability).
+2.  What is the average pulse based for this sample?
+
+SAMPLING VARIABILITY
+
+Remember our goal: *Find an estimate for the mean pulse for U.S. adults*
+
+We have the mean of our sample, but we know about *sampling variability.* If we had obtained a different sample we would likely not get the same mean value for the pulse rate. We have some uncertainty in our estimate. We want to quantify that uncertainty.
+
+One way to quantify that uncertainty estimate is through a simulation method called bootstrapping. You read about bootstrapping for this class and we will go through a similar example here.
+
+Bootstrapping works by sampling with replacement from our original sample to get a sample of the same size, and provide an estimate for the mean. We can create many of these samples and see how attribute their means are. Then we can use the standard deviation of this distribution of sample means to get an estimate for the variability called the standard error.
+
+The process for computing the standard error via bootstrapping is:
+
+-   STEP 1: Randomly sample *n* observations from the observed sample of size *n* (with replacement) This is called a *bootstrap sample* or a *re-sample*.
+
+-   STEP 2: Compute the mean of the bootstrap sample.
+
+-   STEP 3: Repeat the first two steps in the process many times (say 1000 times), each time recording the mean.
+
+-   STEP 4: Find the standard deviation of these means (i.e., the standard error of the mean)
+
+STEP 1: BOOTSTRAP SAMPLE
+
+To get our bootstrap sample we will use the `sample()` function. This function allows us select values from a particular attribute to create a new sample. We must specify a few arguments for this sample to give us the output we are looking for.
+
+-   The first argument is the attribute that we want to sample from. In this case we want to investigate the pulse attribute. So we will specify that the pulse attribute from the NHANES dataset is what we are interested in by typing `nhanes$pulse`. This is slightly different than how we have told R Studio about our chosen attribute using functions like `df_stats()` or `gf_density()`. With those functions we could tell it only the attribute name and specify our dataset using `data = dataset name`. However, in this function we specify the dataset and the attribute in one argument connecting the two with a dollar sign.
+
+-   The next argument is the size of the sample. We need this to match our original sample size, which was 500.
+
+-   Because we are doing a bootstrap sample we will sample with replacement. So we specify this to R Studio by using the argument `replace = TRUE`.
+
+Run the code below to see what you get.
+
+```{r}
+# Randomly sample (with replacement) from the pulse column located in the nhanes data object
+# Draw 500 observations
+
+sample(nhanes$pulse, size = 500, replace = TRUE)
+
+
+
+```
+
+YOUR TURN
+
+1.  What are the first 5 numbers in your sample?
+2.  Click the small "x" in the upper right corner of the sample output. Run the same code chunk again. What are the first 5 numbers in your sample this time?
+3.  Explain why we expect these to be different?
+
+STEP 2: CALCULATE MEAN
+
+Next we will compute the mean of our sample.
+
+To accomplish this, we will use the `mean()` function. This function calculates the mean of a particular set of data.
+
+Run the code below to get the mean of a sample.
+
+```{r}
+# Draw a bootstrap sample of 500 observations and compute the mean
+mean(sample(nhanes$pulse, size = 500, replace = TRUE))
+```
+
+YOUR TURN
+
+1.  What is the mean of your sample?
+2.  Click the small "x" in the upper right corner of the sample output. Run the same code chunk again. What is the mean of your sample this time?
+3.  Explain why we expect these to be different?
+
+STEP 3: REPEAT
+
+Recall that our ultimate goal is to get an estimate for sampling variability. One way to do this with out simulation is to sample many times with replacement from our original sample, calculate the mean, and then get a sense of how attribute those means are. To do this we need to efficiently "get many samples and calculate the mean". R Studio will help us do this quickly using the `do()` function. We will tell it what we want it to do (take the mean of a bootstrap sample) and how many times we want it do that task. You can see in the code below that we specify how many times we would like to "do" a task as an argument in the `do()` function, then we put the task we would like completed after a `*`.
+
+Run the code below to get 10 bootstrap sample means.
+
+```{r}
+# Draw a bootstrap sample of 500 observations and compute the mean
+# Do this 10 times 
+do(10) * {mean(sample(nhanes$pulse, size = 500, replace = TRUE))}
+```
+
+Now we have our sample means, but to be able to view them or perform other calculations, it is best to store them in R Studio. To do this we can use the assignment operator "`<-`" which will assign the results of our simulation to whatever name you choose.
+
+Run the code below.
+
+```{r}
+# Draw a bootstrap sample of 500 observations and compute the mean
+# Do this 1000 times 
+# Assign these into an object called bootstrap_means
+bootstrap_means <- do(1000) * {mean(sample(nhanes$pulse, size = 500, replace = TRUE))}
+
+```
+
+Because we have assigned the results of the functions to a name, we won't see printed results, unless we call to them. Run the code chunk below to view the first few rows of our simulated data.
+
+```{r}
+head(bootstrap_means)
+```
+
+YOUR TURN
+
+1.  Write (or copy and paste) a code chunk that will get 10,000 bootstrap sample means of the pulse attribute.
+2.  Then store that data in an object called bootstrap_means10000.
+3.  Create a density plot bootstrap_means10000.
+4.  Describe your density plot.
+5.  What is a good measure of variability for your plot given its shape?
+
+STEP 4: FIND THE STANDARD ERROR
+
+Now that we have some bootstrap samples we can get a sense of the variability in those samples. Chances are your bootstrap samples formed a symmetric, unimodal distribution. We know the variability in this type of graph is best described by the standard deviation. When we take the standard deviation of a set of statistics (in this case means), we call it a *standard error*.
+
+YOUR TURN
+
+6.  What is the value of standard error of your bootstrap sample?
+7.  What does that value mean in context?
