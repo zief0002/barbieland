@@ -56,11 +56,11 @@ Below are the due dates for the assignments, as well as links to each assignment
 
 <tr>
 <td>
-  Lab Assignment \#4
+  [Lab Assignment \#4](assignments/assignment-04.html)
 </td>
 <td>Oct. 26</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-04-introduction-to-multiple-regression.html) -->
+  [<span class="fa-solid fa-file-signature"></span>](files/assignments/lab-assignment-04.zip)
 </td>
 </tr>
 
