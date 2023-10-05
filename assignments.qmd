@@ -65,12 +65,12 @@ Below are the due dates for the assignments, as well as links to each assignment
 </tr>
 
 <tr>
-<td>Lab Assignment \#5</td>
-<!-- <td>Nov. 12</td> -->
+<td>
+  [Lab Assignment \#5](assignments/assignment-05.html)
+</td>
 <td>Nov. 16</td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-file-signature"></span>](assignments/assignment-05-regression-assumptions.html) -->
-</td>
+  [<span class="fa-solid fa-file-signature"></span>](files/assignments/lab-assignment-05.zip)
 </td>
 </tr>
 
