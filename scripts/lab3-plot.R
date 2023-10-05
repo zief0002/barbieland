@@ -4,7 +4,7 @@ library(educate)
 library(mosaic)
 
 #read in data
-sandwiches <- read_csv("sandwiches.csv")
+sandwiches <- read_csv("https://raw.githubusercontent.com/zief0002/barbieland/main/data/sandwiches.csv")
 
 
 #simulation to get a plot
@@ -13,7 +13,7 @@ bootstrap_means <- do(1000) * {mean(sample(sandwiches$sugar, size = 500, replace
 
 # Histogram
 gf_histogram(~bootstrap_means$result, color = "black", fill = "skyblue") + 
-  xlab("Bootstrapped Mean Sugar Content (in mg)") +
+  xlab("Bootstrapped Mean Sugar Content (in g)") +
   ylab("Count") +
   theme_bw()
 

@@ -1,4 +1,5 @@
 library(tidyverse)
+library(ggformula)
 
 # Import full_sandwiches.csv
 all_sandwiches = read_csv(file.choose())
@@ -15,14 +16,14 @@ sandwiches |>
   write.csv("~/Desktop/sandwiches.csv")
 
 
-sandwiches
+sandwiches = read.csv("https://raw.githubusercontent.com/zief0002/barbieland/main/data/sandwiches.csv")
 
 
 gf_histogram(
   ~sodium, data = sandwiches, 
   color = "black", 
   fill = "pink",
-  xlab = "Sodium (mg per cup)",
+  xlab = "Sodium (g per cup)",
   ylab = "Count"
 )
 

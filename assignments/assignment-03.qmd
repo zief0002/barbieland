@@ -48,7 +48,7 @@ Suppose a social scientist carried out a bootstrap simulation (used the `do()` f
 ```{r}
 #| label: fig-bootstrap-dist
 #| fig-cap: "Distribution of 1000 bootstrapped means."
-#| out-width: "70%"
+#| out-width: "80%"
 #| echo: false
 
 knitr::include_graphics("../img/lab-03-hist.png")
