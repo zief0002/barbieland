@@ -123,6 +123,19 @@ The calendar below lists the tentative course topics. The dates listed are subje
 </td>
 </tr>
 
+<tr>
+<td align="center" style="vertical-align:middle;">&nbsp;</td>
+<td align="center" style="vertical-align:middle;">5</td>
+<td style="vertical-align:middle;">Sept. 21</td>
+<td align="center" style="vertical-align:middle;"></td>
+<td>
+  [Visualization and Numerical Summaries](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-05.pdf)
+</td>
+<td align="center" style="vertical-align:middle;">
+  [<span class="fa-solid fa-folder">](https://raw.githubusercontent.com/zief0002/barbieland/main/files/activities/day05.zip)
+</td>
+</tr>
+
 
 <!-- Unit 03: HYPOTHESIS TESTING -->
 
@@ -134,7 +147,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">6</td>
-<td style="vertical-align:middle;">Sept. 21</td>
+<td style="vertical-align:middle;">Sept. 26</td>
 <td align="center" style="vertical-align:middle;">
   [Ch. 7--8](https://zief0002.github.io/epsy-5261/04-01-case-study-teen-sleep.html)
 </td>
@@ -150,7 +163,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">7</td>
-<td style="vertical-align:middle;">Sept. 26</td>
+<td style="vertical-align:middle;">Sept. 28</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
   [Introduction to Hypothesis Testing](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-07.pdf)
@@ -164,7 +177,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">8</td>
-<td style="vertical-align:middle;">Sept. 28</td>
+<td style="vertical-align:middle;">Oct. 03</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
   [Simulation-Based Hypothesis Testing](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-08.pdf)
@@ -178,7 +191,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">9</td>
-<td style="vertical-align:middle;">Oct. 03</td>
+<td style="vertical-align:middle;">Oct. 05</td>
 <td align="center" style="vertical-align:middle;">
   [Ch. 9--11](https://zief0002.github.io/epsy-5261/04-03-one-sample-test.html)
 </td>
@@ -194,7 +207,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">10</td>
-<td style="vertical-align:middle;">Oct. 05</td>
+<td style="vertical-align:middle;">Oct. 10</td>
 <td align="center" style="vertical-align:middle;">
   [Ch. 12](https://zief0002.github.io/epsy-5261/04-06-one-sample-test-proportions.html)
 </td>
@@ -210,7 +223,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">11</td>
-<td style="vertical-align:middle;">Oct. 10</td>
+<td style="vertical-align:middle;">Oct. 12</td>
 <td align="center" style="vertical-align:middle;">
   [Ch. 13--14](https://zief0002.github.io/epsy-5261/05-01-two-sample-t-test.html)
 </td>
@@ -226,7 +239,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">12</td>
-<td style="vertical-align:middle;">Oct. 12</td>
+<td style="vertical-align:middle;">Oct. 17</td>
 <td align="center" style="vertical-align:middle;">
   [Ch. 15](https://zief0002.github.io/epsy-5261/05-03-two-sample-test-proportions.html)
 </td>
@@ -242,7 +255,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">13</td>
-<td style="vertical-align:middle;">Oct. 17</td>
+<td style="vertical-align:middle;">Oct. 19</td>
 <td align="center" style="vertical-align:middle;">
   [Ch. 17](https://zief0002.github.io/epsy-5261/06-01-generalization.html)
 </td>
@@ -258,7 +271,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">14</td>
-<td style="vertical-align:middle;">Oct. 19</td>
+<td style="vertical-align:middle;">Oct. 24</td>
 <td align="center" style="vertical-align:middle;">
   [Ch. 18](https://zief0002.github.io/epsy-5261/06-02-cause-and-effect.html)
 </td>
@@ -274,7 +287,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">15</td>
-<td style="vertical-align:middle;">Oct. 24</td>
+<td style="vertical-align:middle;">Oct. 26</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td style="vertical-align:middle;">NO CLASS---Mental Health Day 🛌 🍷</td>
 <td align="center" style="vertical-align:middle;"></td>
@@ -291,7 +304,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">16</td>
-<td style="vertical-align:middle;">Oct. 26</td>
+<td style="vertical-align:middle;">Oct. 31</td>
 <td align="center" style="vertical-align:middle;">
   [Ch. 19--21](https://zief0002.github.io/epsy-5261/07-01-confidence-intervals.html)
 </td>
@@ -308,7 +321,7 @@ Introduction to Confidence Intervals
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">17</td>
-<td style="vertical-align:middle;">Oct. 31</td>
+<td style="vertical-align:middle;">Nov. 02</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
 Confidence Intervals for a Single Mean
@@ -323,7 +336,7 @@ Confidence Intervals for a Single Mean
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">18</td>
-<td style="vertical-align:middle;">Nov. 02</td>
+<td style="vertical-align:middle;">Nov. 07</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
   Confidence Intervals for a Single Proportion
@@ -338,7 +351,7 @@ Confidence Intervals for a Single Mean
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">19</td>
-<td style="vertical-align:middle;">Nov. 07</td>
+<td style="vertical-align:middle;">Nov. 09</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
 Confidence Intervals for Comparing Two Means
@@ -353,7 +366,7 @@ Confidence Intervals for Comparing Two Means
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">20</td>
-<td style="vertical-align:middle;">Nov. 09</td>
+<td style="vertical-align:middle;">Nov. 14</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
 Confidence Intervals for Comparing Two Proportions
@@ -368,10 +381,10 @@ Confidence Intervals for Comparing Two Proportions
 <tr>
 <td align="center" style="vertical-align:middle;">&nbsp;</td>
 <td align="center" style="vertical-align:middle;">21</td>
-<td style="vertical-align:middle;">Nov. 14</td>
+<td style="vertical-align:middle;"></td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-More Confidence Intervals
+More Confidence Intervals<br />*Out of Class --- Optional*
   <!-- [More Confidence Intervals](files/slides/day21.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
