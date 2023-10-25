@@ -309,11 +309,10 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 19--21](https://zief0002.github.io/epsy-5261/07-01-confidence-intervals.html)
 </td>
 <td>
-Introduction to Confidence Intervals
-  <!-- [Introduction to Confidence Intervals](files/slides/day16.pdf) -->
+  [Introduction to Confidence Intervals](files/slides/day16.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day16.zip) -->
+  [<span class="fa-solid fa-folder"></span>](files/activities/day16.zip)
 </td>
 </tr>
 
@@ -324,11 +323,10 @@ Introduction to Confidence Intervals
 <td style="vertical-align:middle;">Nov. 02</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-Confidence Intervals for a Single Mean
-  <!-- [Confidence Intervals for a Single Mean](files/slides/day17.pdf) -->
+  [Confidence Intervals for a Single Mean](files/slides/day17.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day17.zip) -->
+  [<span class="fa-solid fa-folder"></span>](files/activities/day17.zip)
 </td>
 </tr>
 
