@@ -309,7 +309,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
   [Ch. 19--21](https://zief0002.github.io/epsy-5261/07-01-confidence-intervals.html)
 </td>
 <td>
-  [Introduction to Confidence Intervals](files/slides/day16.pdf)
+  [Introduction to Confidence Intervals](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-16.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa-solid fa-folder"></span>](files/activities/day16.zip)
@@ -323,7 +323,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Nov. 02</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  [Confidence Intervals for a Single Mean](files/slides/day17.pdf)
+  [Confidence Intervals for a Single Mean](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-17.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
   [<span class="fa-solid fa-folder"></span>](files/activities/day17.zip)
@@ -338,7 +338,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;"></td>
 <td>
   Confidence Intervals for a Single Proportion
-  <!-- [Confidence Intervals for a Single Proportion](files/slides/day18.pdf) -->
+  <!-- [Confidence Intervals for a Single Proportion](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-18.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day18.zip) -->
@@ -353,7 +353,7 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td align="center" style="vertical-align:middle;"></td>
 <td>
 Confidence Intervals for Comparing Two Means
-  <!-- [Confidence Intervals for Comparing Two Means](files/slides/day19.pdf) -->
+  <!-- [Confidence Intervals for Comparing Two Means](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-19.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day19.zip) -->
@@ -368,7 +368,7 @@ Confidence Intervals for Comparing Two Means
 <td align="center" style="vertical-align:middle;"></td>
 <td>
 Confidence Intervals for Comparing Two Proportions
-  <!-- [Confidence Intervals for Comparing Two Proportions](files/slides/day20.pdf) -->
+  <!-- [Confidence Intervals for Comparing Two Proportions](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-20.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day20.zip) -->
@@ -383,7 +383,7 @@ Confidence Intervals for Comparing Two Proportions
 <td align="center" style="vertical-align:middle;"></td>
 <td>
 More Confidence Intervals<br />*Out of Class --- Optional*
-  <!-- [More Confidence Intervals](files/slides/day21.pdf) -->
+  <!-- [More Confidence Intervals](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-21.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day21.zip) -->
@@ -403,7 +403,7 @@ More Confidence Intervals<br />*Out of Class --- Optional*
   <!-- [Standardized Effect Size](files/slides/day22.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day22.zip) -->
+  <!-- [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-22.zip) -->
 </td>
 </tr>
 
@@ -444,7 +444,7 @@ More Confidence Intervals<br />*Out of Class --- Optional*
 </td>
 <td>
 Introduction to Correlation
-  <!-- [Introduction to Correlation](files/slides/day25.pdf) -->
+  <!-- [Introduction to Correlation](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-25.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day25.zip) -->
@@ -461,7 +461,7 @@ Introduction to Correlation
 </td>
 <td>
 Introduction to Simple Linear Regression
-  <!-- [Introduction to Simple Linear Regression](files/slides/day26.pdf) -->
+  <!-- [Introduction to Simple Linear Regression](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-26.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day26.zip) -->
@@ -478,7 +478,7 @@ Introduction to Simple Linear Regression
 </td>
 <td>
 Simple Linear Regression (Continued)
-  <!-- [Simple Linear Regression (Continued)](files/slides/day27.pdf) -->
+  <!-- [Simple Linear Regression (Continued)](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-27.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day27.zip) -->
@@ -495,7 +495,7 @@ Simple Linear Regression (Continued)
 </td>
 <td>
 Simple Linear Regression (Continued)
-  <!-- [Simple Linear Regression (Continued)](files/slides/day28.pdf) -->
+  <!-- [Simple Linear Regression (Continued)](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-28.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
   <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day28.zip) -->
@@ -515,7 +515,7 @@ Review Day
   <!-- [Review Day](files/slides/day29.pdf) -->
 </td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day29.zip) -->
+  <!-- [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-29.zip) -->
 </td>
 </tr>
 
