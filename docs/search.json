@@ -474,5 +474,19 @@
     "title": "Assignment 05",
     "section": "How do I submit the assignment?",
     "text": "How do I submit the assignment?\nCreate a PDF of your responses and submit the PDF via email to both the instructor and TA. Also cc any group members. Before you submit the assignment check that:\n\nAll group members’ names are on the assignment.\nAll tables are numbered and have a caption.\nAll figures are numbered and have a caption.\nAll figures are re-sized to not take up more page space than is necessary to read them.\nNo R syntax is included unless the question specifically asked for the syntax to be included. If there is R syntax included, be sure that it is typeset in a monospaced font (e.g., Courier, Inconsolata).\nDo not submit the script file you used unless the directions specifically ask you to submit it."
+  },
+  {
+    "objectID": "assignments/assignment-06.html#instructions",
+    "href": "assignments/assignment-06.html#instructions",
+    "title": "Assignment 06",
+    "section": "Instructions",
+    "text": "Instructions\nYou will use the nhanes.csv data set to answer questions in this lab. The data codebook includes a description of how the data were collected and of each of the attributes included in the data.\nUse the code chunks in the assignment06.qmd file to load packages, import the data, and carry out any R computations. Submit a PDF document of your responses to the questions in this assignment.\nA social scientist is interested in answering the following two research questions:\n\nResearch Question 1: Among adults in the U.S. in 2017, is the number of hours slept on a weeknight a predictor of the number of hours a person sleeps on the weekend?\n\nYou will use the sleep_weeknight and sleep_weekend attributes from the nhanes.csv data to fit a regression model that you will use to answer these research questions."
+  },
+  {
+    "objectID": "assignments/assignment-06.html#how-do-i-submit-the-assignment",
+    "href": "assignments/assignment-06.html#how-do-i-submit-the-assignment",
+    "title": "Assignment 06",
+    "section": "How do I submit the assignment?",
+    "text": "How do I submit the assignment?\nCreate a PDF of your responses and submit the PDF via email to both the instructor and TA. Also cc any group members. Before you submit the assignment check that:\n\nAll group members’ names are on the assignment.\nAll tables are numbered and have a caption.\nAll figures are numbered and have a caption.\nAll figures are re-sized to not take up more page space than is necessary to read them.\nNo R syntax is included unless the question specifically asked for the syntax to be included. If there is R syntax included, be sure that it is typeset in a monospaced font (e.g., Courier, Inconsolata).\nDo not submit the script file you used unless the directions specifically ask you to submit it."
   }
 ]

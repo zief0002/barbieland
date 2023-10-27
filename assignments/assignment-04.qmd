@@ -82,7 +82,7 @@ They collect data and carry out a two-sample *z*-test to evaluate the difference
 --------------------------------------------------
 
 H[0]: pi_1 = pi_2
-H[A]: pi_1 ≠ p1_2
+H[A]: pi_1 ≠ pi_2
 z = -4.700815
 p = 2.591249e-06
 
