@@ -367,11 +367,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Nov. 14</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-Confidence Intervals for Comparing Two Proportions
-  <!-- [Confidence Intervals for Comparing Two Proportions](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-20.pdf) -->
+<!-- Confidence Intervals for Comparing Two Proportions -->
+  [Confidence Intervals for Comparing Two Proportions](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-20.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day20.zip) -->
+  [<span class="fa-solid fa-folder"></span>](files/activities/day20.zip)
 </td>
 </tr>
 
@@ -399,11 +399,11 @@ More Confidence Intervals<br />*Out of Class --- Optional*
   [Ch. 22--23](https://zief0002.github.io/epsy-5261/07-04-standardized-effects-means.html)
 </td>
 <td>
-  Standardized Effect Size
-  <!-- [Standardized Effect Size](files/slides/day22.pdf) -->
+  <!-- Standardized Effect Size -->
+  [Standardized Effect Size](files/slides/day22.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-22.zip) -->
+  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-22.zip)
 </td>
 </tr>
 
