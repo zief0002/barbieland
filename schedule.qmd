@@ -337,11 +337,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Nov. 07</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-  Confidence Intervals for a Single Proportion
-  <!-- [Confidence Intervals for a Single Proportion](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-18.pdf) -->
+  <!-- Confidence Intervals for a Single Proportion -->
+  [Confidence Intervals for a Single Proportion](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-18.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day18.zip) -->
+  [<span class="fa-solid fa-folder"></span>](files/activities/day18.zip)
 </td>
 </tr>
 
@@ -352,11 +352,11 @@ The calendar below lists the tentative course topics. The dates listed are subje
 <td style="vertical-align:middle;">Nov. 09</td>
 <td align="center" style="vertical-align:middle;"></td>
 <td>
-Confidence Intervals for Comparing Two Means
-  <!-- [Confidence Intervals for Comparing Two Means](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-19.pdf) -->
+<!-- Confidence Intervals for Comparing Two Means -->
+  [Confidence Intervals for Comparing Two Means](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-19.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day19.zip) -->
+  [<span class="fa-solid fa-folder"></span>](files/activities/day19.zip)
 </td>
 </tr>
 
