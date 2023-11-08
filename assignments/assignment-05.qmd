@@ -29,7 +29,7 @@ A social scientist is interested in answering the following two research questio
 
 > **Research Question 1:** What proportion of adults in the U.S. in 2017 report having sleep trouble?
 >
-> **Research Question 2:** What is the difference in the proportion of time American adults in 2017 that are experiencing depression between those who have reported sleep trouble and those who have not?
+> **Research Question 2:** What is the difference in the proportion of American adults in 2017 that are experiencing depression between those who have reported sleep trouble and those who have not?
 
 You will use the `recent_depression` and `trouble_sleeping` variables from the *nhanes.csv* data to compute confidence intervals to answer these research questions.
 
@@ -50,10 +50,11 @@ You will use the `recent_depression` and `trouble_sleeping` variables from the *
 
 # Part 2: Investigating Research Question 2
 
-3. **(5pts.)** Compute and report a 95% confidence interval to estimate the difference in the average time spent doing moderate/vigorous activity at work for adults in 2017 U.S. households between those who have reported sleep trouble and those who have not. Then interpret this interval to answer Research Question 2. To fully answer this question, you must:
+3. **(5pts.)** Compute and report a 95% confidence interval to estimate the difference in the proportion of American adults in 2017 that are experiencing depression between those who have reported sleep trouble and those who have not. Then interpret this interval to answer Research Question 2. To fully answer this question, you must:
 
     + Include the syntax you used to create the interval.
     + Include an interpretation of the confidence interval in context.
+
 
 
 4. **(3pts.)** Evaluate all three of the assumptions underlying the use of this confidence interval. For each assumption: clearly state whether the assumption is tenable or not and explain why you believe the assumption is tenable or not by referring to the evidence you computed. Be sure to also include any evidence/calculations you are using here.
