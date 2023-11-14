@@ -83,7 +83,7 @@ You will use the `recent_depression` and `trouble_sleeping` variables from the *
     d. One of the interval widths would decrease, the other would increase.
 
 
-Suppose a researcher computed a 90% confidence interval to estimate the mean number of hours per weekend night adults in U.S. households in 2017 slept. This interval was reported as 90% CI = [8.05, 8.31]. Questions 5--8 each give a potential interpretation of this interval. *For each of these questions, indicate whether the interpretation provided is correct or incorrect. (You do NOT need to explain why.)*
+Suppose a researcher computed a 90% confidence interval to estimate the mean number of hours per weekend night adults in U.S. households in 2017 slept. This interval was reported as 90% CI = [8.05, 8.31]. Questions 7--8 each give a potential interpretation of this interval. *For each of these questions, indicate whether the interpretation provided is correct or incorrect. (You do NOT need to explain why.)*
 
 7. There is a 90% chance the confidence interval includes the sample mean number of hours per weekend night adults in U.S. households in 2017 slept. 
 
