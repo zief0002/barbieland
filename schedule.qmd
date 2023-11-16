@@ -399,10 +399,10 @@ More Confidence Intervals<br />
 </td>
 <td>
   <!-- Standardized Effect Size -->
-  [Standardized Effect Size](files/slides/day22.pdf)
+  [Standardized Effect Size](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-22.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  [<span class="fa-solid fa-folder"></span>](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-22.zip)
+  [<span class="fa-solid fa-folder"></span>](files/activities/day22.zip)
 </td>
 </tr>
 
