@@ -439,7 +439,7 @@ More Confidence Intervals<br />
 <td align="center" style="vertical-align:middle;">25</td>
 <td style="vertical-align:middle;">Nov. 28</td>
 <td align="center" style="vertical-align:middle;">
-  TBD
+  [Ch. 24](https://zief0002.github.io/epsy-5261/08-01-scatterplot-correlation.html)
 </td>
 <td>
   [Introduction to Correlation](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-25.pdf)
@@ -455,7 +455,7 @@ More Confidence Intervals<br />
 <td align="center" style="vertical-align:middle;">26</td>
 <td style="vertical-align:middle;">Nov. 30</td>
 <td align="center" style="vertical-align:middle;">
-  TBD
+  [Ch. 25](https://zief0002.github.io/epsy-5261/08-02-linear-regression-description.html)
 </td>
 <td>
   [Introduction to Simple Linear Regression](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-26.pdf)
@@ -471,7 +471,7 @@ More Confidence Intervals<br />
 <td align="center" style="vertical-align:middle;">27</td>
 <td style="vertical-align:middle;">Dec. 05</td>
 <td align="center" style="vertical-align:middle;">
-  TBD
+  [Ch. 26](https://zief0002.github.io/epsy-5261/08-03-r-squared.html)
 </td>
 <td>
 Simple Linear Regression (Continued)
@@ -488,7 +488,7 @@ Simple Linear Regression (Continued)
 <td align="center" style="vertical-align:middle;">28</td>
 <td style="vertical-align:middle;">Dec. 07</td>
 <td align="center" style="vertical-align:middle;">
-  TBD
+  [Ch. 27](https://zief0002.github.io/epsy-5261/08-04-regression-inference.html)
 </td>
 <td>
 Simple Linear Regression (Continued)
