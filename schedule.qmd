@@ -442,11 +442,10 @@ More Confidence Intervals<br />
   TBD
 </td>
 <td>
-Introduction to Correlation
-  <!-- [Introduction to Correlation](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-25.pdf) -->
+  [Introduction to Correlation](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-25.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day25.zip) -->
+  [<span class="fa-solid fa-folder"></span>](files/activities/day25.zip)
 </td>
 </tr>
 
@@ -459,11 +458,10 @@ Introduction to Correlation
   TBD
 </td>
 <td>
-Introduction to Simple Linear Regression
-  <!-- [Introduction to Simple Linear Regression](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-26.pdf) -->
+  [Introduction to Simple Linear Regression](https://raw.githubusercontent.com/zief0002/barbieland/main/files/slides/day-26.pdf)
 </td>
 <td align="center" style="vertical-align:middle;">
-  <!-- [<span class="fa-solid fa-folder"></span>](files/activities/day26.zip) -->
+  [<span class="fa-solid fa-folder"></span>](files/activities/day26.zip)
 </td>
 </tr>
 
